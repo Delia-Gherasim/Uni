@@ -1,0 +1,5 @@
+1. The number of associative operations on a set A={ 
+a 1 , } is 1
+2. identifying an operation table by the matrix [1] ∈ M 1 (A), the operation tables of the associative operations on A = {
+a 1 , } are given by the matrices:
+[('a1', 'a1', 'a1'), [...]]

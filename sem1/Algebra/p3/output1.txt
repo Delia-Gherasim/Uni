@@ -1,0 +1,2 @@
+ 1. the number of bases of the vector space Z2 ^n over Z2 is6
+2. the vectors of each such basis are:[['01', '10'], ['01', '11'], ['10', '01'], ['10', '11'], ['11', '01'], ['11', '10']]
