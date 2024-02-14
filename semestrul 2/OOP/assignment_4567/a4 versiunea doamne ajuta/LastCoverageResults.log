@@ -1,0 +1,21 @@
+[2023-05-03 08:51:51] [info] Start Program:
+Path:"C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\x64\Debug\a4 versiunea doamne ajuta.exe"
+Arguments:
+Working directory: "C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\"
+Modules: Selected: C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\x64\Debug\a4 versiunea doamne ajuta.exe Excluded: 
+Sources: Selected: C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta Excluded: ui.cpp ui.h 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\40723\AppData\Local\Temp\2cx54pin.jno 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-05-03 08:51:52] [info] Module: C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\x64\Debug\a4 versiunea doamne ajuta.exe is selected because it matches selected pattern: C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\x64\Debug\a4 versiunea doamne ajuta.exe
+[2023-05-03 08:51:52] [info] ----------------------------------------------------
+[2023-05-03 08:51:52] [info] Coverage binary generated in file: C:\Users\40723\AppData\Local\Temp\2cx54pin.jno
+[2023-05-03 08:51:52] [info] ----------------------------------------------------

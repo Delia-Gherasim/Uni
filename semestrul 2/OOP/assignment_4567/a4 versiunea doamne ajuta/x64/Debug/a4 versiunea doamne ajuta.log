@@ -1,0 +1,40 @@
+﻿  main.cpp
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(31,40): warning C4661: 'DynamicVector<Tutorials>::DynamicVector(const DynamicVector<Tutorials> &)': no suitable definition provided for explicit template instantiation request
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(19,2): message : see declaration of 'DynamicVector<Tutorials>::DynamicVector'
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(31,40): warning C4661: 'DynamicVector<Tutorials>::DynamicVector(int)': no suitable definition provided for explicit template instantiation request
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(16,2): message : see declaration of 'DynamicVector<Tutorials>::DynamicVector'
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(31,40): warning C4661: 'DynamicVector<Tutorials>::~DynamicVector(void)': no suitable definition provided for explicit template instantiation request
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(17,3): message : see declaration of 'DynamicVector<Tutorials>::~DynamicVector'
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(31,40): warning C4661: 'void DynamicVector<Tutorials>::resize(void)': no suitable definition provided for explicit template instantiation request
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(18,7): message : see declaration of 'DynamicVector<Tutorials>::resize'
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(31,40): warning C4661: 'DynamicVector<Tutorials> &DynamicVector<Tutorials>::operator =(const DynamicVector<Tutorials> &)': no suitable definition provided for explicit template instantiation request
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(20,17): message : see declaration of 'DynamicVector<Tutorials>::operator ='
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(31,40): warning C4661: 'void DynamicVector<Tutorials>::add(const T &)': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(22,7): message : see declaration of 'DynamicVector<Tutorials>::add'
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(31,40): warning C4661: 'void DynamicVector<Tutorials>::delete_(const T &)': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(23,7): message : see declaration of 'DynamicVector<Tutorials>::delete_'
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(31,40): warning C4661: 'void DynamicVector<Tutorials>::update(const T &)': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(24,7): message : see declaration of 'DynamicVector<Tutorials>::update'
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(31,40): warning C4661: 'T DynamicVector<T>::getElement(int) const': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(26,4): message : see declaration of 'DynamicVector<Tutorials>::getElement'
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(31,40): warning C4661: 'int DynamicVector<Tutorials>::getCapacity(void) const': no suitable definition provided for explicit template instantiation request
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(27,6): message : see declaration of 'DynamicVector<Tutorials>::getCapacity'
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(31,40): warning C4661: 'int DynamicVector<Tutorials>::getSize(void) const': no suitable definition provided for explicit template instantiation request
+C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\DynamicVector.h(28,6): message : see declaration of 'DynamicVector<Tutorials>::getSize'
+  a4 versiunea doamne ajuta.vcxproj -> C:\Facultation\sem2\oop\lab\a456\a4 versiunea doamne ajuta\x64\Debug\a4 versiunea doamne ajuta.exe
