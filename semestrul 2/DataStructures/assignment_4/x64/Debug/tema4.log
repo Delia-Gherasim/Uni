@@ -1,0 +1,11 @@
+﻿  ExtendedTest.cpp
+C:\Facultation\sem2\datastr\lab\tema4\ExtendedTest.cpp(189,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Facultation\sem2\datastr\lab\tema4\ExtendedTest.cpp(222,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Facultation\sem2\datastr\lab\tema4\ExtendedTest.cpp(207,20): warning C4101: 'ex': unreferenced local variable
+C:\Facultation\sem2\datastr\lab\tema4\ExtendedTest.cpp(214,20): warning C4101: 'ex': unreferenced local variable
+  SMMIterator.cpp
+  ShortTest.cpp
+  SortedMultiMap.cpp
+C:\Facultation\sem2\datastr\lab\tema4\SortedMultiMap.cpp(217,79): warning C4806: '!=': unsafe operation: no value of type 'bool' promoted to type 'const int' can equal the given constant
+  Generating Code...
+  tema4.vcxproj -> C:\Facultation\sem2\datastr\lab\tema4\x64\Debug\tema4.exe

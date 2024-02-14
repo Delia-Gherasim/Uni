@@ -1,0 +1,396 @@
+#pragma once
+//DO NOT INCLUDE SMMITERATOR
+
+//DO NOT CHANGE THIS PART
+#include <vector>
+#include <utility>
+typedef int TKey;
+typedef int TValue;
+typedef std::pair<TKey, TValue> TElem;
+#define NULL_TVALUE -111111
+#define NULL_TELEM pair<TKey, TValue>(-111111, -111111);
+using namespace std;
+class SMMIterator;
+typedef bool(*Relation)(TKey, TKey);
+
+struct Node {
+    TKey key;
+   // vector<TValue> values;
+    TValue value;
+};
+
+class SortedMultiMap {
+	friend class SMMIterator;
+    private:
+        int capacity;
+        int length;
+        Node* elements;
+
+        Relation relation;
+
+        int hash(TKey key) const;
+        int quadratic_probe(int hash_val, int i) const;
+        void sortElements();
+        void resize();
+
+
+    public:
+
+    // constructor
+    SortedMultiMap(Relation r);
+
+	//adds a new key value pair to the sorted multi map
+    void add(TKey c, TValue v);
+
+  	//returns the values belonging to a given key
+    vector<TValue> search(TKey c) const;
+
+	//removes a key value pair from the sorted multimap
+	//returns true if the pair was removed (it was part of the multimap), false if nothing is removed
+    bool remove(TKey c, TValue v);
+
+    //returns the number of key-value pairs from the sorted multimap
+    int size() const;
+
+    //verifies if the sorted multi map is empty
+    bool isEmpty() const;
+
+    // returns an iterator for the sorted multimap. The iterator will returns the pairs as required by the relation (given to the constructor)	
+    SMMIterator iterator() const;
+
+    // destructor
+    ~SortedMultiMap();
+
+
+    void sortValues(std::vector<TValue>& values);
+    int getValueRange() const;
+};
+
+#include "SMMIterator.h"
+#include "SortedMultiMap.h"
+#include <iostream>
+#include <vector>
+#include <exception>
+#include <algorithm>
+using namespace std;
+
+const int DELETED = -11111;
+
+SortedMultiMap::SortedMultiMap(Relation r) 
+{   
+    //complexity average=worst=best=theta(1)
+
+    this->relation = r;
+    this->capacity = 8001;
+    this->length = 0;
+    this->elements = new Node[this->capacity];
+    for (int i = 0; i < this->capacity; i++) {
+        this->elements[i].key = NULL_TVALUE;
+        //this->elements[i].values.clear();
+        this->elements[i].value = NULL_TVALUE;
+    }
+}
+
+int SortedMultiMap::size() const 
+{
+    //complexity average=worst=best=theta(1)
+
+    return this->length;
+}
+
+bool SortedMultiMap::isEmpty() const 
+{
+    //complexity average=worst=best=theta(1)
+
+    return this->length == 0;
+}
+
+SMMIterator SortedMultiMap::iterator() const 
+{
+    //complexity average=worst=best=theta(1)
+
+    return SMMIterator(*this);
+}
+
+int SortedMultiMap::hash(TKey key) const
+{ 
+   //complexity average=worst=best=theta(1)
+
+    return abs(key) % this->capacity;
+}
+
+int SortedMultiMap::quadratic_probe(int hash_val, int i) const
+{
+    //complexity average=worst=best=theta(1)
+
+    return (int)(hash_val + 0.5 * i + 0.5 * i) % this->capacity;
+}
+
+SortedMultiMap::~SortedMultiMap() 
+{
+    //complexity average=worst=best=theta(1)
+
+    delete[] this->elements;
+}
+
+void SortedMultiMap::resize() 
+{
+    //complexity average=worst=best=theta(capacity)
+
+    int old_capacity = this->capacity;
+    Node* old_elements = this->elements;
+    this->capacity *= 2;
+    this->length = 0;
+    this->elements = new Node[this->capacity];
+    for (int i = 0; i < old_capacity; i++) {
+        this->elements[i].key = NULL_TVALUE;
+        this->elements[i].value = NULL_TVALUE;
+      //  this->elements[i].values.clear();
+    }
+
+    for (int i = 0; i < old_capacity; i++) {
+        if (old_elements[i].key != NULL_TVALUE && old_elements[i].key != DELETED) {
+            TKey currentKey = old_elements[i].key;
+            TValue currentValue = old_elements[i].value;
+
+            /*vector<TValue> currentValues = old_elements[i].values;
+            for (const auto& value : currentValues) {
+                this->add(currentKey, value);
+            }*/
+
+        }
+    }
+
+    delete[] old_elements;
+}
+
+void SortedMultiMap::add(TKey c, TValue v) 
+{
+    // best complexity: O(1)   -> key already exists, no resize needed
+    // worst and average complexity O(capacity) 
+
+    if (this->length == this->capacity) {
+        this->resize();
+    }
+
+    int index = this->hash(c);
+    int i = 0;
+
+    while (this->elements[index].key != NULL_TVALUE && this->elements[index].key != DELETED) {
+        //if (this->elements[index].key == c) {
+        //    // Key already exists, store the new value
+        //    this->elements[index].values.push_back(v);
+        //    // Sort the values vector based on the key using the provided relation
+        //    this->sortValues(this->elements[index].values);
+        //    this->length++;
+        //    return;
+        //}
+        i++;
+        index = this->quadratic_probe(this->hash(c), i);
+    }
+
+    // Key does not exist, create a new node and store the key-value pair
+    this->elements[index].key = c;
+    this->elements[index].value = v;
+   // this->elements[index].values = { v };
+    this->length++;
+}
+
+void SortedMultiMap::sortElements() 
+{
+    //worst=average=best complexity theta(length^2) 
+    for (int i = 0; i < this->length - 1; i++) {
+        for (int j = 0; j < this->length - i - 1; j++) {
+            if (this->relation(this->elements[j].key, this->elements[j + 1].key)==false) {
+                // Swap the elements if they are in the wrong order
+                Node temp = this->elements[j];
+                this->elements[j] = this->elements[j + 1];
+                this->elements[j + 1] = temp;
+            }
+        }
+    }
+}
+
+vector<TValue> SortedMultiMap::search(TKey c) const {
+    // best time complexity O(1)
+    //worst=average complexity O(capacity)
+    vector<TValue> values;
+    int i = 0;
+    int hash_val = this->hash(c);
+    while (i < this->capacity && this->elements[hash_val].key != NULL_TVALUE && this->elements[hash_val].key != DELETED) {
+        if (this->elements[hash_val].key == c) {
+            //for (const auto& value : this->elements[hash_val].values) {
+                values.push_back(this->elements[hash_val].value);
+            //}
+        }
+        i++;
+        hash_val = this->quadratic_probe(this->hash(c), i);
+    }
+    return values;
+}
+
+
+bool SortedMultiMap::remove(TKey c, TValue v) 
+{
+    //best time complexity O(1) --> key is found at the first hashed index
+    //worst= average complexity O(capacity)
+    int index = this->hash(c);
+    int i = 0;
+
+    while (i < this->capacity && this->elements[index].key != NULL_TVALUE && this->elements[index].key != DELETED) {
+        if (this->elements[index].key == c && this->elements[index].value == v) {
+            this->elements[index].key = DELETED;
+            this->length--;
+            return true;
+        }
+            //// Key matches, search for the value in the vector of values
+            //auto& values = this->elements[index].values;
+            //for (auto it = values.begin(); it != values.end(); ++it) {
+            //    if (*it == v) {
+            //        values.erase(it); // Remove the value from the vector
+            //        if (values.empty()) {
+            //            // If the vector becomes empty, mark the key as deleted
+            //            this->elements[index].key = DELETED;
+            //        }
+            //        // Sort the values vector based on the relation
+            //        sort(values.begin(), values.end(), relation);
+            //        this->length--;
+            //        return true;
+            //   }
+            //}
+        //}
+        i++;
+        index = this->quadratic_probe(this->hash(c), i);
+    }
+
+    // Key not found
+    return false;
+}
+
+void SortedMultiMap::sortValues(std::vector<TValue>& values) 
+{
+    //worst=average=best complexity theta(values.size^2) 
+    for (int i = 0; i < values.size() - 1; i++) {
+        for (int j = 0; j < values.size() - i - 1; j++) {
+            if (this->relation(values[j], values[j + 1])==false) {
+                // Swap the elements if they are in the wrong order
+                TValue temp = values[j];
+                values[j] = values[j + 1];
+                values[j + 1] = temp;
+            }
+        }
+    }
+}
+
+int SortedMultiMap::getValueRange() const
+{
+    if (this->isEmpty())
+        return -1;
+    int maxvalue = -11111;
+    int minvalue = 99999;
+
+    for (int i = 0; i < this->capacity; i++) {
+        if (this->elements[i].key != NULL_TVALUE && !this->elements[i].key != DELETED) {
+            TValue value = this->elements[i].value;
+        //    const std::vector<TValue>& values = this->elements[i].values;
+           // for (const auto& value : values) {
+                if (value > maxvalue)
+                    maxvalue = value;
+                if (value < minvalue)
+                    minvalue = value;
+            //}
+        }
+    }
+
+    return maxvalue - minvalue;
+
+}
+
+
+
+#pragma once
+
+#include "SortedMultiMap.h"
+
+
+class SMMIterator{
+	friend class SortedMultiMap;
+private:
+	//DO NOT CHANGE THIS PART
+	const SortedMultiMap& map;
+	
+
+	//TODO - Representation
+	int index;
+	int current;
+	int currentValueIndex;
+	void validPosition();
+
+
+public:
+	SMMIterator(const SortedMultiMap& map);
+	void first();
+	void next();
+	bool valid() const;
+   	TElem getCurrent() const;
+};
+
+
+#include "SMMIterator.h"
+#include "SortedMultiMap.h"
+
+
+SMMIterator::SMMIterator(const SortedMultiMap& map) : map(map) 
+{
+    //complexity average=worst=best=theta(1)
+    this->current = 0;
+    this->currentValueIndex = 0;
+    this->validPosition();
+}
+
+void SMMIterator::validPosition() 
+{
+    //best time complexity O(1) -> this->current is already a valid position, meaning the key is not NULL_TVALUE
+    while (this->current < this->map.capacity && (this->map.elements[this->current].key == NULL_TVALUE ))
+    {// ||  this->currentValueIndex >= this->map.elements[this->current].values.size())) {
+        this->current++;
+        this->currentValueIndex = 0;
+    }
+}
+
+void SMMIterator::first() 
+{
+    //complexity average=worst=best=theta(1)
+    this->current = 0;
+    this->currentValueIndex = 0;
+    this->validPosition();
+}
+
+void SMMIterator::next() 
+{
+    //complexity average=worst=best=theta(1)
+    if (!this->valid()) {
+        throw exception();
+    }
+    this->currentValueIndex++;
+    this->validPosition();
+}
+
+bool SMMIterator::valid() const 
+{
+    //complexity average=worst=best=theta(1)
+    return this->current < this->map.capacity; //&& this->currentValueIndex < this->map.elements[this->current].values.size();
+}
+
+TElem SMMIterator::getCurrent() const 
+{
+    //complexity average=worst=best=theta(1)
+    if (!this->valid()) {
+        throw exception();
+    }
+    return make_pair(this->map.elements[this->current].key, this->map.elements[this->current].value);
+}
+
+
+
+
