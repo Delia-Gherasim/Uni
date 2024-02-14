@@ -1,0 +1,34 @@
+from sympy import Matrix
+print("exercise 1:")
+x = var('x')
+y = var('y')
+a = function('a')(x,y)
+b = function('b')(x,y)
+a = -3*x+y+x*y
+b = 2*x - 4*y
+jacobian = Matrix([[diff(a, x), diff(a, y)], [diff(b, x), diff(b, y)]])
+jacobian_equilibrum = jacobian.subs([(x,0),(y,0)])
+if(jacobian_equilibrum.det() != 0):
+    print("is stable")
+else:
+    print("is not stable")
+eigenvals = jacobian_equilibrum.eigenvals()
+eigenvals
+
+print("exercise 2:")
+A = matrix([[-3,1],[2,-4]])
+determinant = A.det()
+eigenvalues = A.eigenvalues()
+eigenvects = A.eigenvectors_right()
+print("the determinant is", determinant, "the eigenvalues are", eigenvalues, "the eigenvects are", eigenvects)
+print("at equilibrum point (0,0), the eigenvalues are both negative, so the equilibrum point is a node and the system is stable")
+
+print("exercise 3:")
+t = var('t')
+y = function('y')(t)
+eq = diff(y,t,2) + 16*y == 3
+sol = desolve(eq,y, ics = [2*pi,0,0])
+print("the solution is", sol)
+sol_approximate = sol.subs(t=1)
+print("the approximate solution is", sol_approximate)
+plot(sol,t,0,5) 
