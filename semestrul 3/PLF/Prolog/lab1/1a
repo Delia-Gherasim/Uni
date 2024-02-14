@@ -1,0 +1,24 @@
+/*Write a predicate to determine the lowest common multiple of a list formed from integer numbers.*/
+
+%lcm(X-integer, Y-integer, LCM-mmultiple)
+%flow model(i, i, o)
+lcm(X, Y, LCM) :-
+    LCM is abs(X * Y) // gcd(X, Y).
+
+%lcm_of_list(L-list, R-result)
+%flow model(i, o)
+lcm_of_list([], 1).
+lcm_of_list([X], X).
+lcm_of_list([H | T], LCM) :-
+    lcm_of_list(T, LCM1),
+    lcm(H, LCM1, LCM).
+
+%gcd(X-integer, Y-integer, G-Result)
+%flow model(i,i,o)
+gcd(X, 0, X) :- X > 0.
+gcd(X, Y, G) :-
+    Y > 0,
+    Z is X mod Y,
+    gcd(Y, Z, G).
+
+

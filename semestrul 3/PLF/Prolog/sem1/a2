@@ -1,0 +1,9 @@
+%suma(L-list, S-return number)
+%!  flow model(i, o)(i, i)
+:- module(a,
+           suma/2[]).
+
+suma([], 0).
+suma([H|T], S):-
+    suma(T, TS),
+    S is H+TS.

@@ -1,0 +1,42 @@
+/*4.
+a. Write a predicate to determine the difference of two sets.
+b. Write a predicate to add value 1 after every even element from a list
+*/
+
+%findEl(L-list, E-elem, R-result).
+%i,i,o
+findEl([], _, false).
+findEl([E|_], E, true).
+findEl([H|T],E, R):-
+    H\=E,
+    findEl(T, E, R).
+
+diff([],_, []).
+diff([H1|T1], L2, [H1|R]):-
+    findEl(L2, H1, Res),
+    \+Res,
+    diff(T1, L2, R).
+diff([H1|T1], L2, R):-
+    findEl(L2, H1, Res),
+    Res,
+    diff(T1, L2, R).
+%diff([_|T1], L2, R):-
+ %   diff(T1, L2, R).
+
+%addOne(L-list, R-result)
+%i,o
+addOne([],[]).
+addOne([E], R):-
+    E mod 2 =:=0,
+    R is E+1.
+addOne([E], R):-
+    E mod 2 =:= 1,
+    R is E.
+addOne([H|T], [H1|R]):-
+    H mod 2 =:=0,
+    H1 is H+1,
+    addOne(T, R).
+addOne([H|T], [H|R]):-
+    H mod 2 =:=1,
+    addOne(T, R).
+
