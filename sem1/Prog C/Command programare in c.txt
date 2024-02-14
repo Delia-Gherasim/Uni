@@ -1,0 +1,6 @@
+wsl --install -d ubuntu - installs
+touch [name].c - creates files
+nano [name].c - opens file for editing
+sudo apt-get update + sudo apt-get install gcc - installs gcc for ubuntu
+gcc [name].c -o [fname].out - creates [fname].out file(by default named a.out)
+./[fname].out - runs the .out file
