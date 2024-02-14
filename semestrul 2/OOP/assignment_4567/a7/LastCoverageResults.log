@@ -1,0 +1,21 @@
+[2023-05-16 21:26:27] [info] Start Program:
+Path:"C:\Facultation\sem2\oop\lab\a456\a7\x64\Debug\a7.exe"
+Arguments:
+Working directory: "C:\Facultation\sem2\oop\lab\a456\a7\"
+Modules: Selected: C:\Facultation\sem2\oop\lab\a456\a7\x64\Debug\a7.exe Excluded: 
+Sources: Selected: C:\Facultation\sem2\oop\lab\a456\a7 C:\Users\40723\Downloads Excluded: ui.cpp ui.h 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\40723\AppData\Local\Temp\anrx0pdl.1n4 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-05-16 21:26:27] [info] Module: C:\Facultation\sem2\oop\lab\a456\a7\x64\Debug\a7.exe is selected because it matches selected pattern: C:\Facultation\sem2\oop\lab\a456\a7\x64\Debug\a7.exe
+[2023-05-16 21:26:27] [info] ----------------------------------------------------
+[2023-05-16 21:26:27] [info] Coverage binary generated in file: C:\Users\40723\AppData\Local\Temp\anrx0pdl.1n4
+[2023-05-16 21:26:27] [info] ----------------------------------------------------
