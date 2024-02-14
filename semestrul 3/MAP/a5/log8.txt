@@ -1,0 +1,6412 @@
+Program State 1
+ExeStack: 
+( int counter , ( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+int counter
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+int counter
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+Ref(int)  a
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+Ref(int)  a
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 4
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 4
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 4
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 4
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 4
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 5
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int]
+Heap: 
+
+Program State 6
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 6
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 6
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 6
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 6
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 7
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int]
+Heap: 
+
+Program State 8
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 8
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 8
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 8
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 8
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 9
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 10
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 10
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 10
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 10
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 10
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 11
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 12
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 12
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 12
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 12
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 12
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 13
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 14
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 14
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 14
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 14
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 14
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 15
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 16
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 16
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 16
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 16
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 16
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 17
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 18
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 18
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 18
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 18
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 18
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 19
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 20
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 20
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 20
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 20
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 20
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 21
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  10 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 21
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 21
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 21
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  10 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 21
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 21
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  10 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 21
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 21
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 21
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 21
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 21
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int,  1 : int]
+Heap: 
+
+Program State 1
+ExeStack: 
+( int counter , ( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+int counter
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+int counter
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+Ref(int)  a
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+Ref(int)  a
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 4
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 4
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 4
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 4
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 4
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 5
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 6
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 6
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 6
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 6
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 6
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 7
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 8
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 8
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+Heap: 
+
+Program State 8
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 8
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 8
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 9
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 10
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 10
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+Heap: 
+
+Program State 10
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 10
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 10
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 11
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 12
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 12
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+Heap: 
+
+Program State 12
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 12
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 12
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 13
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 14
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 14
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+Heap: 
+
+Program State 14
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 14
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 14
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 15
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 16
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 16
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+Heap: 
+
+Program State 16
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 16
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 16
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 17
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 18
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 18
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+Heap: 
+
+Program State 18
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 18
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 18
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a   22   ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 19
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 20
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 20
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+Heap: 
+
+Program State 20
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 20
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 20
+ExeStack: 
+Fork( ( New( a   22   ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  10 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a   22   ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  10 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( New( a   22   ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  10 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+Print(a)
+New( a   22   )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int counter , ( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+int counter
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+int counter
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+Ref(int)  a
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+Ref(int)  a
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+1:  0 
+
+Program State 3
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(int) 
+counter:  0 
+FileTable: 
+Heap: 
+1:  0 
+
+Program State 1
+ExeStack: 
+( int counter , ( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+int counter
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+int counter
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+Ref(int)  a
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+Ref(int)  a
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+1:  0 
+
+Program State 3
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(int) 
+counter:  0 
+FileTable: 
+Heap: 
+1:  0 
+
+Program State 1
+ExeStack: 
+( int counter , ( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+int counter
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+int counter
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    ) )
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+Ref(int)  a
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+Ref(int)  a
+SymTable: 
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 2
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  0 
+FileTable: 
+Heap: 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+1:  0 
+
+Program State 3
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(int) 
+counter:  0 
+FileTable: 
+Heap: 
+1:  0 
+
+Program State 3
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+Heap: 
+1:  0 
+
+Program State 3
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(int) 
+counter:  0 
+FileTable: 
+Heap: 
+1:  0 
+
+Program State 4
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 4
+ExeStack: 
+SymTable: 
+a:  1 : Ref(int) 
+counter:  0 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 4
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 4
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 4
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 5
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 5
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 5
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 5
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 5
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  1 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+2:  1 
+
+Program State 5
+ExeStack: 
+Print(a)
+SymTable: 
+a:  2 : Ref(int) 
+counter:  1 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+2:  1 
+
+Program State 5
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+2:  1 
+
+Program State 5
+ExeStack: 
+Print(a)
+SymTable: 
+a:  2 : Ref(int) 
+counter:  1 
+FileTable: 
+output: [ 0 ]
+Heap: 
+1:  0 
+2:  1 
+
+Program State 6
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+2:  1 
+
+Program State 6
+ExeStack: 
+SymTable: 
+a:  2 : Ref(int) 
+counter:  1 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+2:  1 
+
+Program State 6
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+2:  1 
+
+Program State 6
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+
+Program State 6
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+
+Program State 7
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+
+Program State 7
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+
+Program State 7
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+
+Program State 7
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+
+Program State 7
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+3:  2 
+
+Program State 7
+ExeStack: 
+Print(a)
+SymTable: 
+a:  3 : Ref(int) 
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+3:  2 
+
+Program State 7
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+3:  2 
+
+Program State 7
+ExeStack: 
+Print(a)
+SymTable: 
+a:  3 : Ref(int) 
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ]
+Heap: 
+1:  0 
+3:  2 
+
+Program State 8
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+3:  2 
+
+Program State 8
+ExeStack: 
+SymTable: 
+a:  3 : Ref(int) 
+counter:  2 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+3:  2 
+
+Program State 8
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+3:  2 
+
+Program State 8
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+
+Program State 8
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+
+Program State 9
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+
+Program State 9
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+
+Program State 9
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+
+Program State 9
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+
+Program State 9
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+4:  3 
+
+Program State 9
+ExeStack: 
+Print(a)
+SymTable: 
+a:  4 : Ref(int) 
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+4:  3 
+
+Program State 9
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+4:  3 
+
+Program State 9
+ExeStack: 
+Print(a)
+SymTable: 
+a:  4 : Ref(int) 
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ]
+Heap: 
+1:  0 
+4:  3 
+
+Program State 10
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+4:  3 
+
+Program State 10
+ExeStack: 
+SymTable: 
+a:  4 : Ref(int) 
+counter:  3 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+4:  3 
+
+Program State 10
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+4:  3 
+
+Program State 10
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+
+Program State 10
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+
+Program State 11
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+
+Program State 11
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+
+Program State 11
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+
+Program State 11
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+
+Program State 11
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+5:  4 
+
+Program State 11
+ExeStack: 
+Print(a)
+SymTable: 
+a:  5 : Ref(int) 
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+5:  4 
+
+Program State 11
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+5:  4 
+
+Program State 11
+ExeStack: 
+Print(a)
+SymTable: 
+a:  5 : Ref(int) 
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ]
+Heap: 
+1:  0 
+5:  4 
+
+Program State 12
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+5:  4 
+
+Program State 12
+ExeStack: 
+SymTable: 
+a:  5 : Ref(int) 
+counter:  4 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+5:  4 
+
+Program State 12
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+5:  4 
+
+Program State 12
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+
+Program State 12
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+
+Program State 13
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+
+Program State 13
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+
+Program State 13
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+
+Program State 13
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+
+Program State 13
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+6:  5 
+
+Program State 13
+ExeStack: 
+Print(a)
+SymTable: 
+a:  6 : Ref(int) 
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+6:  5 
+
+Program State 13
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+6:  5 
+
+Program State 13
+ExeStack: 
+Print(a)
+SymTable: 
+a:  6 : Ref(int) 
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ]
+Heap: 
+1:  0 
+6:  5 
+
+Program State 14
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+6:  5 
+
+Program State 14
+ExeStack: 
+SymTable: 
+a:  6 : Ref(int) 
+counter:  5 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+6:  5 
+
+Program State 14
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+6:  5 
+
+Program State 14
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+
+Program State 14
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+
+Program State 15
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+
+Program State 15
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+
+Program State 15
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+
+Program State 15
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+
+Program State 15
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+7:  6 
+
+Program State 15
+ExeStack: 
+Print(a)
+SymTable: 
+a:  7 : Ref(int) 
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+7:  6 
+
+Program State 15
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+7:  6 
+
+Program State 15
+ExeStack: 
+Print(a)
+SymTable: 
+a:  7 : Ref(int) 
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ]
+Heap: 
+1:  0 
+7:  6 
+
+Program State 16
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+7:  6 
+
+Program State 16
+ExeStack: 
+SymTable: 
+a:  7 : Ref(int) 
+counter:  6 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+7:  6 
+
+Program State 16
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+7:  6 
+
+Program State 16
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+
+Program State 16
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+
+Program State 17
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+
+Program State 17
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+
+Program State 17
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+
+Program State 17
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+
+Program State 17
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+8:  7 
+
+Program State 17
+ExeStack: 
+Print(a)
+SymTable: 
+a:  8 : Ref(int) 
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+8:  7 
+
+Program State 17
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+8:  7 
+
+Program State 17
+ExeStack: 
+Print(a)
+SymTable: 
+a:  8 : Ref(int) 
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ]
+Heap: 
+1:  0 
+8:  7 
+
+Program State 18
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+8:  7 
+
+Program State 18
+ExeStack: 
+SymTable: 
+a:  8 : Ref(int) 
+counter:  7 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+8:  7 
+
+Program State 18
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+8:  7 
+
+Program State 18
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+
+Program State 18
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+
+Program State 19
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+
+Program State 19
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+
+Program State 19
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+
+Program State 19
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+
+Program State 19
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+9:  8 
+
+Program State 19
+ExeStack: 
+Print(a)
+SymTable: 
+a:  9 : Ref(int) 
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+9:  8 
+
+Program State 19
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+Fork( Fork( ( New( a counter ) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+9:  8 
+
+Program State 19
+ExeStack: 
+Print(a)
+SymTable: 
+a:  9 : Ref(int) 
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ]
+Heap: 
+1:  0 
+9:  8 
+
+Program State 20
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+9:  8 
+
+Program State 20
+ExeStack: 
+SymTable: 
+a:  9 : Ref(int) 
+counter:  8 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+9:  8 
+
+Program State 20
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+9:  8 
+
+Program State 20
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+counter= counter ADD   1   
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+
+Program State 20
+ExeStack: 
+Fork( ( New( a counter ) , Print(a) ) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+
+Program State 21
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  10 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+
+Program State 21
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+
+Program State 21
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+
+Program State 21
+ExeStack: 
+While(counter LESS_THAN   10  )( Fork( Fork( ( New( a counter ) , Print(a) ) ) ) , counter= counter ADD   1    )
+SymTable: 
+a:  1 : int
+counter:  10 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+
+Program State 21
+ExeStack: 
+( New( a counter ) , Print(a) )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+
+Program State 21
+ExeStack: 
+SymTable: 
+a:  1 : int
+counter:  10 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+
+Program State 21
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+
+Program State 21
+ExeStack: 
+Print(a)
+New( a counter )
+SymTable: 
+a:  1 : int
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+
+Program State 21
+ExeStack: 
+Print(a)
+SymTable: 
+a:  10 : Ref(int) 
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+1:  0 
+10:  9 
+
+Program State 21
+ExeStack: 
+Print(a)
+SymTable: 
+a:  10 : Ref(int) 
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ]
+Heap: 
+10:  9 
+
+Program State 21
+ExeStack: 
+SymTable: 
+a:  10 : Ref(int) 
+counter:  9 
+FileTable: 
+output: [ 0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ,  9 ]
+Heap: 
+10:  9 
+

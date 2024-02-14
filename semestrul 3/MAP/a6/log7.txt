@@ -1,0 +1,1245 @@
+Program State 1
+ExeStack: 
+( int v , ( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+int v
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+int v
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+Ref(int)  a
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+Ref(int)  a
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+v=  10  
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+v=  10  
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+New( a   22 : int  )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+New( a   22 : int  )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 1
+ExeStack: 
+( Print(v) , Print(a) )
+Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 1
+ExeStack: 
+( Print(v) , Print(a) )
+Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(v) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(v) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(v)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+a->  30 : Ref(int)  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(v)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+a->  30 : Ref(int)  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+v=  32  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+v=  32  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int,  1 : Ref(Ref(int) ) ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int,  1 : Ref(Ref(int) ) ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int,  1 : Ref(Ref(int) ) ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 1
+ExeStack: 
+( int v , ( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+int v
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+int v
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+Ref(int)  a
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+Ref(int)  a
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+v=  10  
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+v=  10  
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+New( a   22 : int  )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+New( a   22 : int  )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 1
+ExeStack: 
+( Print(v) , Print(a) )
+Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 1
+ExeStack: 
+( Print(v) , Print(a) )
+Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(v) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(v) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(v)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+a->  30 : Ref(int)  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(v)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+a->  30 : Ref(int)  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+v=  32  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+v=  32  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int,  1 : Ref(Ref(int) ) ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int,  1 : Ref(Ref(int) ) ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int,  1 : Ref(Ref(int) ) ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 1
+ExeStack: 
+( int v , ( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+int v
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+int v
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Ref(int)  a , ( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) ) )
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+Ref(int)  a
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+Ref(int)  a
+SymTable: 
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( v=  10   , ( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+v=  10  
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+v=  10  
+SymTable: 
+a:  1 : int
+v:  0 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( New( a   22 : int  ) , ( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) ) )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+New( a   22 : int  )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+New( a   22 : int  )
+SymTable: 
+a:  1 : int
+v:  10 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 1
+ExeStack: 
+( Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) ) , ( Print(v) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 1
+ExeStack: 
+( Print(v) , Print(a) )
+Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 1
+ExeStack: 
+( Print(v) , Print(a) )
+Fork( ( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(v) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(v) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( a->  30 : Ref(int)   , ( v=  32   , ( Print(a) , Print(a) ) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(v)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+a->  30 : Ref(int)  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(v)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+a->  30 : Ref(int)  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( v=  32   , ( Print(a) , Print(a) ) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+v=  32  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+v=  32  
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  10 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+( Print(a) , Print(a) )
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int,  1 : Ref(Ref(int) ) ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+Print(a)
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int,  1 : Ref(Ref(int) ) ]
+Heap: 
+1:  22 : int
+
+Program State 2
+ExeStack: 
+SymTable: 
+a:  1 : Ref(Ref(int) ) 
+v:  32 
+FileTable: 
+output: [ 10 ,  22 : int,  1 : Ref(Ref(int) ) ,  22 : int]
+Heap: 
+1:  22 : int
+

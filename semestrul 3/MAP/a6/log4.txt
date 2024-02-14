@@ -1,0 +1,2352 @@
+Program State 1
+ExeStack: 
+( String varf , ( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@504bae78
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( String varf , ( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@759ebb3d
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( String varf , ( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@4f8e5cde
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( String varf , ( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@38bc8ab5
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( String varf , ( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( String varf , ( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@3b764bce
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 1
+ExeStack: 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 21
+ExeStack: 
+( String varf , ( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) ) )
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+String varf
+SymTable: 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( varf=  C:\Facultation\sem3\map\lab\a3\test.in   , ( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) ) )
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+varf=  C:\Facultation\sem3\map\lab\a3\test.in  
+SymTable: 
+varf:   
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( open file: varf , ( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+open file: varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+Heap: 
+
+Program State 21
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( int varc , ( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+int varc
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  0 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( Print(varc) , ( read file:varf ,  varc  , ( Print(varc) , close file varf ) ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+Heap: 
+
+Program State 21
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+output: [ 15 ]
+Heap: 
+
+Program State 21
+ExeStack: 
+( read file:varf ,  varc  , ( Print(varc) , close file varf ) )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+output: [ 15 ]
+Heap: 
+
+Program State 21
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+output: [ 15 ]
+Heap: 
+
+Program State 21
+ExeStack: 
+( Print(varc) , close file varf )
+read file:varf ,  varc 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  15 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+output: [ 15 ]
+Heap: 
+
+Program State 21
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+output: [ 15 ]
+Heap: 
+
+Program State 21
+ExeStack: 
+( Print(varc) , close file varf )
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+output: [ 15 ]
+Heap: 
+
+Program State 21
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+output: [ 15 ]
+Heap: 
+
+Program State 21
+ExeStack: 
+close file varf
+Print(varc)
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+output: [ 15 ]
+Heap: 
+
+Program State 21
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 21
+ExeStack: 
+close file varf
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+ C:\Facultation\sem3\map\lab\a3\test.in : java.io.BufferedReader@ba8a1dc
+output: [ 15 ,  50 ]
+Heap: 
+
+Program State 21
+ExeStack: 
+SymTable: 
+varf:  C:\Facultation\sem3\map\lab\a3\test.in 
+varc:  50 
+FileTable: 
+output: [ 15 ,  50 ]
+Heap: 
+
