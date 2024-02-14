@@ -1,0 +1,22 @@
+sudo apt update
+sudo apt install fortune
+sudo apt install cowsay
+
+sudo - run smth as administrator
+	- nu merge pe asta a facultatii :(
+apt - ca un fel de marketplace
+
+cowsay *msj*
+fortune
+fortune | cowsay
+
+apt install cmatrix
+cmatrix
+
+sudo apt install sl - trenulet?
+sl
+
+ctrl+c - le opreste
+
+ssh gdie3331@linux.scs.ubbcluj.ro   --> conectare
+ctr+d sau scrie exit

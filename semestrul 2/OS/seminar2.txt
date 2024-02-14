@@ -1,0 +1,7 @@
+seminar 2 OS
+
+#!/bin/bash
+
+echo "hello"
+
+vim hw.sh  --> deschide shell file 

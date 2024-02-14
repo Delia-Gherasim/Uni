@@ -1,0 +1,124 @@
+#include <stdio.h>
+#include <pthread.h>
+
+int counter = 0;
+pthread_mutex_t mutex;
+
+void* thread_function(void* arg) {
+    pthread_mutex_lock(&mutex); // Acquire the lock
+
+    // Critical Section
+    counter++;
+    printf("Thread %ld: Counter = %d\n", pthread_self(), counter);
+
+    pthread_mutex_unlock(&mutex); // Release the lock
+
+    return NULL;
+}
+
+int main() {
+    pthread_t thread1, thread2;
+
+    pthread_mutex_init(&mutex, NULL);
+
+    pthread_create(&thread1, NULL, thread_function, NULL);
+    pthread_create(&thread2, NULL, thread_function, NULL);
+
+    pthread_join(thread1, NULL);
+    pthread_join(thread2, NULL);
+
+    pthread_mutex_destroy(&mutex);
+
+    return 0;
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+#include <pthread.h>
+
+#define NUM_THREADS 4
+pthread_barrier_t barrier;
+
+void* thread_function(void* arg) {
+    printf("Thread %ld: Before Barrier\n", pthread_self());
+
+    pthread_barrier_wait(&barrier); // Wait for all threads to reach the barrier
+
+    printf("Thread %ld: After Barrier\n", pthread_self());
+
+    return NULL;
+}
+
+int main() {
+    pthread_t threads[NUM_THREADS];
+
+    pthread_barrier_init(&barrier, NULL, NUM_THREADS + 1); // Number of threads + main thread
+
+    for (int i = 0; i < NUM_THREADS; i++) {
+        pthread_create(&threads[i], NULL, thread_function, NULL);
+    }
+
+    printf("Main Thread: Before Barrier\n");
+
+    pthread_barrier_wait(&barrier); // Wait for all threads to reach the barrier
+
+    printf("Main Thread: After Barrier\n");
+
+    for (int i = 0; i < NUM_THREADS; i++) {
+        pthread_join(threads[i], NULL);
+    }
+
+    pthread_barrier_destroy(&barrier);
+
+    return 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+#include <pthread.h>
+
+int counter = 0;
+pthread_rwlock_t rwlock;
+
+void* reader_function(void* arg) {
+    pthread_rwlock_rdlock(&rwlock); // Acquire the read lock
+
+    // Read from shared resource (counter)
+    printf("Reader Thread %ld: Counter = %d\n", pthread_self(), counter);
+
+    pthread_rwlock_unlock(&rwlock); // Release the read lock
+
+    return NULL;
+}
+
+void* writer_function(void* arg) {
+    pthread_rwlock_wrlock(&rwlock); // Acquire the write lock
+
+    // Write to shared resource (counter)
+    counter++;
+    printf("Writer Thread %ld: Incremented Counter to %d\n", pthread_self(), counter);
+
+    pthread_rwlock_unlock(&rwlock); // Release the write lock
+
+    return NULL;
+}
+
+int main() {
+    pthread_t reader1, reader2, writer;
+
+    pthread_rwlock_init(&rwlock, NULL);
+
+    pthread_create(&reader1, NULL, reader_function, NULL);
+    pthread_create(&reader2, NULL, reader_function, NULL);
+    pthread_create(&writer, NULL, writer_function, NULL);
+
+    pthread_join(reader1, NULL);
+    pthread_join(reader2, NULL);
+    pthread_join(writer, NULL);
+
+    pthread_rwlock_destroy(&rwlock);
+
+    return 0;
+}
+

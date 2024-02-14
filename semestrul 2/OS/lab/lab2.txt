@@ -1,0 +1,34 @@
+nano test.c --> creaza si deschide un fisier
+
+return 0 --> inseamna ca o ajuns la final si totu o fost executat succesfully
+
+argc = argument count 	*int, arguments in main
+argv = argument vector(tre sa fie pointer)(list of strings)
+	*pt vector pointer, points to the beggining of the array
+	*char, double pointer (**)
+
+cat test.c --> afiseaza pe ecran codu din test.c
+cat -n test.c --> si line nr
+
+gcc test.c --> compiles the c file
+gcc -Wall -->prints all warnings
+gcc test.c -o test.exe --> saves compiled file(first) with the second name
+
+ls --> list content of a folder
+
+./test.exe --> execute the file (mereu the executable)
+
+opening a file
+FILE *f;
+f=fopen(name_of_file, open type)
+	*w --> write
+	 r --> read
+	 a --> append
+fscanf(file_handle, format, variables) --> read from file
+	fscanf(f, "%d", &n);
+
+matrix --> pointer to a list of pointers(to lists of elements)
+matrix= malloc(nr_of_bytes)  --> to allocate memory
+
+ matrix=(int**)malloc(n*sizeof(int *n));
+

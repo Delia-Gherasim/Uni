@@ -1,0 +1,20 @@
+os seminar 3(?)
+
+fork()  -> creates a new process
+	-> no parameters
+	-> returns -1(cand ajunge la limita de processes), 0, process_id
+
+wait()  -> makes the parent wait for the child process
+	-> libraries: <sys.types.h>
+		      <sys.wait.h>
+	-> return value: int    -error:-1
+				-success: process_id of the terminated child
+	-> parameters:  NULL-> waits for the process to finish
+			otherwise-> points to the adress of the exit status
+
+signal(s, i) -> library: #include <signal.h>
+		-> calls i when it receives the s signal
+effect()-> parameter: const char* command
+	-> library: #include <stdlib>
+	-> return value: cmd==NULL
+			

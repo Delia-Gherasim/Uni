@@ -1,0 +1,24 @@
+lab 7	shell_lab.sh
+
+osca .sh ii shell
+#!/bin/bash  ->bash ii extension of shell
+	-->nu se compileaza se executa direct
+	-->seamana cu python, nu trebuie sa includem main
+
+echo = print
+
+chmod +x [name of file] --> gives execution permition
+
+/bin/bash [filename] sau ./[filename]  --> ruleaza
+
+grep -E "^$" test.txt | wc -c
+
+echo 1234a | grep -E -q "^[0-9]+$"  --> nuj da -q ii modu liniste
+
+ls -1 dir --> see content of a directory
+
+ls -l -d dir1 |sha1sum --> "cnp.ul" comenzii de deasupra
+
+touch dir1/1.txt --> creeaza fisier in directory
+
+ls -l -d dir1 -->info gen cand ai schimbat prin el

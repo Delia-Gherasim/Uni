@@ -1,0 +1,21 @@
+previously: parent proccess creates a child proccess
+	 pipes are used to send the value changed in C to P
+	 pipe is stored in the memory of the parent
+	 each p and c have their own reading/writting ends in the pipe --> nu se poate write a si read a de.odata, one must be closed
+	 pipe only on fork() processes(pt ca au ierarhie)
+
+fifo	--> a file we are creating on the disk 
+	-->read/write operations
+	-->same mechanism as pipe, but 2 proccesses that work in parallel
+	-->are not open by default, when we open it we have to open it in the mode w/r
+__                       __
+|A|                       |B|
+  |                          |  (open w)
+  | <---fifo file <---- |
+  | read          write |
+  |                          |
+close                   close
+
+fifo1.c fifo2.c fifo3.c
+
+!!!!  mkfifo a2b b2c c2a !!!

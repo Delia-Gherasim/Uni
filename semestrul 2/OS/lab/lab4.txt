@@ -1,0 +1,57 @@
+lab 4(?) os
+
+grep -E "ana" test.txt  --> afiseaza prop cu cuvantu ana
+			--> case sensitive
+			--> -i case insensitive
+
+*uita.te la teaching notes 4.1 tabel
+
+"^ana" --> since the beginning of the line
+	^ -->begining with
+
+"[abc]" --> lines containing a or b or c
+"abc" --> lines containing the sequence abc
+
+operator + --> 1 or more
+operator * --> 0 or more
+
+"[0-9]+$" --> lines ending in a digit
+	$ adica ca ending
+"^[0-9]+&" --> care
+
+
+"[^ ]+" --> gaseste cuvinte 
+"[^ ]+[aeiou][^ ]*[aeiou][^ ]*" --> iterate everything that is not a space than first vowel, 
+				apoi cauta a2a vocala si nuj plm 
+				--> gaseste toate cuvintele care au macar 2 vocale
+
+sed --> find and replace
+sed -E "s/*what we're looking for/ *what we want to replace with/" a.txt
+sed -E "s/a/@/gi" -->g global: all occurences of a
+		  -->i insenstive
+sed -E "y/aeiou/12345/" --> schimba a cu 1, b cu 2,... gen tine cont de pozitie 
+sed -E "/[0-9]+/d" test.txt --> sterge toate liniile care au cifre
+ sed -E "s/([aeiou])/\1\1/gi" test.txt --> dubleaza vocalele
+		([aeiou]) --> osca captures the vowels si ii ca si cum ar fi \1
+ sed -E "s/([aeiou])([0-9])/\1\2/gi" test.txt
+		 ([aeiou]) --> osca captures the vowels si ii ca si cum ar fi \1
+		([0-9])--> captures the digits si \2
+
+awk --> line by line end execute body of code '{ }'
+	{print NR} --> line number
+	{print NF} --> number of words(gen intre orice separator, default space)
+	{print $2} --> second field(gen cuvant)
+	{print $0} --> all line
+		$NF --> last word
+   awk 'NF%2==0{print $0 }' test.txt --> even number
+	* if condition is met, the body of code is executed
+   awk '$3~/[0-9]+/{print $0}' test.txt --> print line a carui al 3lea cuvant(field) is a nr
+   awk -F: --> schimba separatorul in :
+	
+nano a.awk
+awk -f a.awk test.txt --> body of code in a.awk
+
+BEGIN {*comenzi*} --> face la inceput gen prima linie
+END {*comenzi*} --> face pe ultima linie
+
+

@@ -1,0 +1,14 @@
+os lab 6?
+
+#include <unistd.h>
+fork()       --> child receives a copy of the parent
+	--> var pid (Proccess Identifier) 
+		if pid==0 => child function
+		else =>parent
+	--> wait() in parent (asteapta pt exit(0) din child )
+	--> child without a parent = zombie
+	--> can be used to call shell commands in C
+		execlp([filepath], [command], NULL)
+			* execlp("grep", "grep", "-E", "\\mere\\>", "test.txt", NULL);
+nano mostbasic.c pt ex de azi :*
+
