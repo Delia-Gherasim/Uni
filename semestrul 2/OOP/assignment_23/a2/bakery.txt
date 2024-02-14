@@ -1,0 +1,14 @@
+13 
+flour mopan 50 9 10 2023 
+cacao mopan 2 3 3 2023 
+eggs lidl 30 4 4 2023 
+sugar lidl 2 3 3 2023 
+salt lidl 4 8 2 2023 
+chocolate kaufland 5 20 11 2021 
+vanilla_extract selgros 25 14 4 2023 
+oil kaufland 20 8 9 2024 
+rom_extract selgros 34 12 12 2033 
+abc def 4 4 3 2020 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+  0 0 0 0 

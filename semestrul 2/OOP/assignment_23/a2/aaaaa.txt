@@ -1,0 +1,76 @@
+
+/*
+#include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
+
+struct Product {
+    char name[30], supplier[30];
+    int quantity, expiration_day, expiration_month, expiration_year;
+};
+
+struct Product *read_from_file_the_struct(int *number_of_materials_in_file) {
+    FILE *textfile;
+    textfile = fopen("bakery.txt", "r");
+    if (textfile == NULL)
+        return NULL;
+
+    fscanf(textfile, "%d", number_of_materials_in_file);
+
+    struct Product *products = malloc(*number_of_materials_in_file * sizeof(struct Product));
+    if (products == NULL) {
+        fclose(textfile);
+        return NULL;
+    }
+
+    for (int i = 0; i < *number_of_materials_in_file; i++) {
+        fscanf(textfile, "%s %s %d %d %d %d", products[i].name, products[i].supplier, &products[i].quantity, &products[i].expiration_day, &products[i].expiration_month, &products[i].expiration_year);
+    }
+
+    fclose(textfile);
+    return products;
+}
+
+int rewrite_file(struct Product *products, int number_of_materials) {
+    FILE *textfile;
+    textfile = fopen("bakery.txt", "w");
+    if (textfile == NULL)
+        return 1;
+
+    fprintf(textfile, "%d\n", number_of_materials);
+    for (int i = 0; i < number_of_materials; i++) {
+        fprintf(textfile, "%s %s %d %d %d %d\n", products[i].name, products[i].supplier, products[i].quantity, products[i].expiration_day, products[i].expiration_month, products[i].expiration_year);
+    }
+
+    fclose(textfile);
+    return 0;
+}
+
+void print_the_struct() {
+    int number_of_materials;
+    struct Product *products = read_from_file_the_struct(&number_of_materials);
+    if (products == NULL) {
+        printf("Failed to read from file\n");
+        return;
+    }
+
+    for (int i = 0; i < number_of_materials; i++) {
+        printf("%s %s %d %d %d %d\n", products[i].name, products[i].supplier, products[i].quantity, products[i].expiration_day, products[i].expiration_month, products[i].expiration_year);
+    }
+
+    free(products);
+}
+
+int number_of_materials_in_file()
+{
+    int number_of_materials;
+    FILE *textfile;
+    textfile = fopen("bakery.txt", "r");
+    if (textfile == NULL)
+        return NULL;
+
+    fscanf(textfile, "%d", number_of_materials);
+    fclose(textfile);
+    return number_of_materials;
+}
+*/
