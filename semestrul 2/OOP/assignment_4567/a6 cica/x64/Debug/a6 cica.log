@@ -1,0 +1,3 @@
+﻿  tutorials.cpp
+x64\Debug\tutorials.obj : warning LNK4042: object specified more than once; extras ignored
+  a6 cica.vcxproj -> C:\Facultation\sem2\oop\lab\a456\a6 cica\x64\Debug\a6 cica.exe

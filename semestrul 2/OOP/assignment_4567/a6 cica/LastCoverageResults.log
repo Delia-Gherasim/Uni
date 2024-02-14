@@ -1,0 +1,21 @@
+[2023-05-03 09:49:13] [info] Start Program:
+Path:"C:\Facultation\sem2\oop\lab\a456\a6 cica\x64\Debug\a6 cica.exe"
+Arguments:
+Working directory: "C:\Facultation\sem2\oop\lab\a456\a6 cica\"
+Modules: Selected: C:\Facultation\sem2\oop\lab\a456\a6 cica\x64\Debug\a6 cica.exe Excluded: 
+Sources: Selected: C:\Facultation\sem2\oop\lab\a456\a6 cica Excluded: ui.cpp ui.h 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\40723\AppData\Local\Temp\ohqueihb.lpx 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-05-03 09:49:13] [info] Module: C:\Facultation\sem2\oop\lab\a456\a6 cica\x64\Debug\a6 cica.exe is selected because it matches selected pattern: C:\Facultation\sem2\oop\lab\a456\a6 cica\x64\Debug\a6 cica.exe
+[2023-05-03 09:49:14] [info] ----------------------------------------------------
+[2023-05-03 09:49:14] [info] Coverage binary generated in file: C:\Users\40723\AppData\Local\Temp\ohqueihb.lpx
+[2023-05-03 09:49:14] [info] ----------------------------------------------------
