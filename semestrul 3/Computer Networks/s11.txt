@@ -1,0 +1,45 @@
+protocol dns -> se face traducere de la o adresa ip la un nume
+	*folosim servere
+
+server -> services => http poate fi testat din browser 
+		sau 
+	           => dns care face mappare de adrese 
+			-> dhcp comanda dns_server sau manual?
+
+daca serveru si calc sunt in retele diferite -> facem rutare: pe router ->routing ->static 
+			
+
+sau cv ca interfata si scriem adresa ip
+
+primul si ultimul ip dintr-o retea nu le putem folosi ca .0 ii a retelei si .ultimu ii pt ??
+prima adresa ip assignabila -> router
+
+adresa ip != adresa network
+
+
+ttl ii un counter? time to leap ??
+
+pt dhcp calc tre sa descopere cine, ce
+la nat nu ca se trimit pachete prin retea, numa routeru tre sa stie
+
+NAT
+-network address transl de la private la public
+-in interiorul retelei adresa ip privata
+-in exterior adresa ip publica unica => inlocuita pe internet cu adresa routerului
+
+pe partea cu calc ii inside inafara ii outside
+
+bit mask = not masca de retea
+
+
+nu asta access-list 1 permit 192.168.0.1 0.0.0.31 
+ci asta ip access-list extended nat-internet
+
+permit ip 192.168.0.0 0.0.0.255 193.231.20.0 0.0.0.255
+
+permit ip 192.168.1.0 0.0.0.255 193.231.20.0 0.0.0.255
+
+permit ip 192.168.2.0 0.0.0.255 193.231.20.0 0.0.0.255
+
+permit ip 192.168.3.0 0.0.0.255 193.231.20.0 0.0.0.255
+

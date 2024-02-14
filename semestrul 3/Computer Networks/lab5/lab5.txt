@@ -1,0 +1,37 @@
+TCP Sockets
+	-reliable
+server					client
+RDV Sock					Socket
+   \					    \
+bind -the port we use for comunications		    \
+   \					    \
+listen					    \
+   \
+accept -comunication socket <-------------------------------->connect
+
+	-recv and send functions send data through that conection
+
+s=socket.socket(AF_INET, SOCK_STREAM)
+
+
+
+UDP Sockets
+	-specific la cn se trimit mesajele
+server					client
+Socket					Socket
+    \					    \
+bind->specifica portul			    \
+    \					    \
+recv from(socket, 				sendto(data, addr)	
+	=> data, adresa(touple) de la care am primit                  =>clientul isi aloca un port, deci bind nu e necesar
+sendto(data, addr)
+
+import socket
+s=socket.socket(AF_INET, SOCK_DGRAM)
+s.bind('0.0.0.0', 1234)
+while true:
+	d,a=s.recvfrom(1024)		=>nr de bytes pe care vrem sa ii primim
+	v=functie(d.decode())
+	s.sendto(struct.pack('!i', v),a)	=>'!i' pt ca int
+				=>a adresa la care trimitem
+	

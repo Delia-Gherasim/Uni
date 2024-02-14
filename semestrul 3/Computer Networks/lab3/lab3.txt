@@ -1,0 +1,131 @@
+TCP comunication
+
+server 1.python -> import socket (socket is an object)
+	2.C
+client 1. c
+         2.python
+
+sequential comunication??
+
+use socket to send data
+
+##in py
+import socket 			->socket is an object
+s=socket.socket(....,SOCK_STREAM) 	-> tcp
+socket.bind(('local host', 1234))
+s.listen(J)
+while (true)
+	c,adress=s.accept()		->connection between client and server
+				-> c is another socket
+	d=c.recv(2) 		->how many bites we want to receive
+	d=struct.unpack('!H', d)
+		          ->string that describes what kind of data you receive
+		         -> ! means big endian representation
+		          ->d adica data we want to unpack
+		          ->!H net encoding ???
+	.....
+	c.send(struct.pack('!H', d))
+######################
+c.send(string.encode())
+str=c.recv(1024)
+str.decode()
+
+recv(s, (char*)sir, sizeof(char)*D)	->pune in pointer pt sir aloca alea alea
+
+in python strings nu au \0 la final deci trebuie pus in C
+
+
+###############################################
+Client.c – sum of numbers
+
+Server.c – iterative - sum of numbers
+
+#include <sys/types.h>
+
+#include <sys/socket.h>
+
+#include <stdio.h>
+
+#include <netinet/in.h>
+
+#include <netinet/ip.h>
+
+#include <string.h>
+
+#include <unistd.h>
+
+#include <arpa/inet.h>
+
+ 
+
+int main() {
+
+       int c;
+
+       struct sockaddr_in server;
+
+       uint16_t a, b, suma;
+
+ 
+
+       c = socket(AF_INET, SOCK_STREAM, 0);
+
+       if (c < 0) {
+
+              printf("Eroare la crearea socketului client\n");
+
+              return 1;
+
+       }
+
+ 
+
+       memset(&server, 0, sizeof(server));
+
+       server.sin_port = htons(1234);
+
+       server.sin_family = AF_INET;
+
+       server.sin_addr.s_addr = inet_addr("127.0.0.1");
+
+ 
+
+       if (connect(c, (struct sockaddr *) &server, sizeof(server)) < 0) {
+
+              printf("Eroare la conectarea la server\n");
+
+              return 1;
+
+       }
+
+ 
+
+       printf("a = ");
+
+       scanf("%hu", &a);
+
+       printf("b = ");
+
+       scanf("%hu", &b);
+
+       a = htons(a);
+
+       b = htons(b);
+
+       send(c, &a, sizeof(a), 0);
+
+       send(c, &b, sizeof(b), 0);
+
+       recv(c, &suma, sizeof(suma), 0);
+
+       suma = ntohs(suma);
+
+       printf("Suma este %hu\n", suma);
+
+       close(c);
+
+}
+
+ 
+
+ 

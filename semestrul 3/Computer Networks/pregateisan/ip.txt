@@ -1,0 +1,263 @@
+laptop "192.168.88.136"
+192.168.250.162
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		tcp:
+			server:
+import sys
+import struct
+import threading
+import socket
+
+mylock = threading.Lock()
+e = threading.Event()
+e.clear()
+threads = []
+vectors = []
+
+def worker(client_socket):
+    global mylock, e
+    try:
+        # Receive the number (nr)
+        data = client_socket.recv(4)
+        nr = struct.unpack('!H', data)[0]
+
+        # Receive the vector of 'nr' elements
+        vector_data = client_socket.recv(4 * nr)
+        vector = struct.unpack(f'!{nr}I', vector_data)
+
+        # Receive the string
+        string_data = client_socket.recv(1024).decode('utf-8')
+
+        # locks
+        mylock.acquire()
+
+        # Send the number (nr)
+        nr_data = struct.pack('!H', nr)
+        client_socket.send(nr_data)
+
+        # Send the vector
+        vector_data = struct.pack(f'!{nr}I', *vector)
+        client_socket.send(vector_data)
+
+        # Send the string
+        string_data_encoded = string_data.encode('utf-8')
+        client_socket.send(string_data_encoded)
+
+    except socket.error as msg:
+        print('error:', msg.strerror)
+    finally:
+        mylock.release()
+
+def resetSrv():
+    global mylock, threads, e
+    while True:
+        e.wait()
+        for t in threads:
+            t.join()
+        print("all threads are finished")
+        e.clear()
+        mylock.acquire()
+        threads = []
+        mylock.release()
+
+def main():
+    try:
+        rs = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        rs.bind(('0.0.0.0', 1234))
+        rs.listen(5)
+    except socket.error as msg:
+        print(msg.strerror)
+        exit(-1)
+    t = threading.Thread(target=resetSrv, daemon=True)
+    t.start()
+    while True:
+        cs, addrc = rs.accept()
+        t = threading.Thread(target=worker, args=(cs,))  # Pass cs as a tuple
+        threads.append(t)
+        t.start()
+
+main()
+
+
+			client
+#include <sys/socket.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdint.h>
+#include <netinet/in.h>
+#include <unistd.h> 
+#include <arpa/inet.h>
+
+int main() {
+    int c, cod;
+    uint16_t nr;
+    int vector[100];  // Change float to int
+    uint16_t n;
+    char s[100];  
+    char received_string[100];
+
+    struct sockaddr_in server;
+
+    c = socket(AF_INET, SOCK_STREAM, 0);
+    if (c < 0) {
+        perror("Error creating socket");
+        return 1;
+    }
+
+    memset(&server, 0, sizeof(struct sockaddr_in));
+    server.sin_family = AF_INET;
+    server.sin_port = htons(1234);
+    server.sin_addr.s_addr = inet_addr("192.168.88.136"); // Update the IP address accordingly
+
+    cod = connect(c, (struct sockaddr *)&server, sizeof(struct sockaddr_in));
+    if (cod < 0) {
+        perror("Error connecting");
+        close(c);
+        return 1;
+    }
+
+    // Send a nr
+    printf("Enter number of elements: ");
+    scanf("%hu", &nr);  // Added input for nr
+    nr = htons(nr);
+    cod = send(c, &nr, sizeof(nr), 0);
+    if (cod < sizeof(nr)) {
+        perror("Error sending number of elements");
+        close(c);
+        return 1;
+    }
+
+    // Send the vector
+    printf("Enter the vector (int values): ");  // Change to int
+    for (uint16_t i = 0; i < ntohs(nr); i++) {
+        scanf("%d", &vector[i]);  // Change to int
+    }
+    cod = send(c, vector, sizeof(int) * ntohs(nr), 0);  // Change to int
+    if (cod < sizeof(int) * ntohs(nr)) {
+        perror("Error sending vector");
+        close(c);
+        return 1;
+    }
+
+    // Send a string
+    printf("Enter a string: ");
+    fgets(s, sizeof(s), stdin);
+    send(c, s, strlen(s), 0);
+
+    // Receive a nr
+    recv(c, &n, sizeof(n), 0);
+    n = ntohs(n);
+    printf("Received number: %hu\n", n);
+
+    // Receive the sorted vector
+    int sorted_vector[100];  // Change to int
+    recv(c, sorted_vector, sizeof(int) * n, 0);  // Change to int
+    for (int i = 0; i < n; i++) {
+        printf("%d ", sorted_vector[i]);  // Change to int
+    }
+
+     // Receive a string from the server
+    recv(c, received_string, sizeof(received_string), 0);
+    printf("Received string from server: %s\n", received_string);
+
+    close(c);
+    return 0;
+}
+
+
+		udp:
+			server:
+def main():
+    server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server.bind(('0.0.0.0', 1234))
+    print("server listening...")
+    while True:
+        data, address = server.recvfrom(1024)
+        data=data.decode('utf-8')
+        char = char.encode('utf-8')
+        nr_bytes = struct.pack('!H', nr)
+        server.sendto(char, address)
+        server.sendto(nr_bytes, address)
+        
+
+			client:
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <netdb.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+    char s1[100],  c;
+    uint16_t nr;
+    int sock, n, length;
+    struct sockaddr_in server, from;
+    struct hostent *hp;
+
+    if (argc != 3) {
+        printf("Usage: %s <server_name> <port>\n", argv[0]);
+        exit(1);
+    }
+
+    sock = socket(AF_INET, SOCK_DGRAM, 0);
+    if (sock < 0) {
+        perror("socket");
+        return 1;
+    }
+  server.sin_family = AF_INET;
+
+    hp = gethostbyname(argv[1]);
+    if (hp == 0) {
+        printf("Unknown host\n");
+        return 1;
+    }
+
+    bcopy((char *)hp->h_addr, (char *)&server.sin_addr, hp->h_length);
+    server.sin_port = htons(atoi(argv[2]));
+    length = sizeof(struct sockaddr_in);
+
+//send a string
+    printf("String: \n");
+    fgets(s1, sizeof(s1), stdin);
+    n = sendto(sock, s1, strlen(s1), 0, (struct sockaddr *)&server, length);
+    if (n < 0) {
+        perror("Error sending the first string");
+        return 1;
+    }
+
+//receive a character
+    n = recvfrom(sock, &c, sizeof(char), 0, (struct sockaddr *)&from, &length);
+    if (n < 0) {
+        perror("recv");
+        return 1;
+    }
+    printf("Character is: %c\n", c);
+
+//receive a nr
+    n = recvfrom(sock, &nr, sizeof(uint16_t), 0, (struct sockaddr *)&from, &length);
+    nr = ntohs(nr);  // Convert back to host byte order
+    if (n < 0) {
+        perror("recv");
+        return 1;
+    }
+    printf("Number is: %hu\n", nr);
+
+    close(sock);
+    return 0;
+}

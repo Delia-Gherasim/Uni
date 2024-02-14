@@ -1,0 +1,26 @@
+UDP - continuare
+broadcast->pt a trimite msj la fiecare calc din retea
+
+setsocket(sock, SQL_SOCKET, SO_BROADCAST, &broadcast, sizeof(broadcast))
+
+*in loc de adresa de host, adresa de broadcast a retelei 
+
+ifconfig>wirelass lan adapter >sublet mask
+			->identifica care is bitii din adresa ip care se refera la retea
+
+or(not mask) -> ip or 0.0.255.255
+
+*pt test INADDR_BROADCAST
+		sau
+	255.255.255.255
+
+
+*pt test problemele 3 si 4
+
+select(fdmax+1,
+->modifica read_fds deci facem copie
+fdmax->file descriptor maxim
+
+
+server c sau python 
+client c
