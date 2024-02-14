@@ -1,0 +1,72 @@
+ExeStack: 
+( int v , ( v=  2   , Print(v) ) )
+SymTable: 
+FileTable: 
+
+ExeStack: 
+( v=  2   , Print(v) )
+int v
+SymTable: 
+FileTable: 
+
+ExeStack: 
+( v=  2   , Print(v) )
+SymTable: 
+v:  0 
+FileTable: 
+
+ExeStack: 
+Print(v)
+v=  2  
+SymTable: 
+v:  0 
+FileTable: 
+
+ExeStack: 
+Print(v)
+SymTable: 
+v:  2 
+FileTable: 
+
+ExeStack: 
+SymTable: 
+v:  2 
+FileTable: 
+output: [ 2 ]
+
+ExeStack: 
+( int v , ( v=  2   , Print(v) ) )
+SymTable: 
+FileTable: 
+
+ExeStack: 
+( v=  2   , Print(v) )
+int v
+SymTable: 
+FileTable: 
+
+ExeStack: 
+( v=  2   , Print(v) )
+SymTable: 
+v:  0 
+FileTable: 
+
+ExeStack: 
+Print(v)
+v=  2  
+SymTable: 
+v:  0 
+FileTable: 
+
+ExeStack: 
+Print(v)
+SymTable: 
+v:  2 
+FileTable: 
+
+ExeStack: 
+SymTable: 
+v:  2 
+FileTable: 
+output: [ 2 ]
+
