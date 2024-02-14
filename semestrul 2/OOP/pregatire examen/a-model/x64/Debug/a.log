@@ -1,0 +1,8 @@
+﻿  moc model.h
+  model.cpp
+  service.cpp
+  view.cpp
+  main.cpp
+  moc_model.cpp
+  moc_view.cpp
+  a.vcxproj -> C:\Facultation\sem2\oop\pregateisan\a\x64\Debug\a.exe

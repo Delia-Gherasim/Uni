@@ -1,0 +1,2 @@
+C:\Facultation\sem2\oop\a\x64\Debug\a.exe
+C:\Facultation\sem2\oop\pregateisan\a\x64\Debug\a.exe
