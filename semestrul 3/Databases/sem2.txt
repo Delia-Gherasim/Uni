@@ -1,0 +1,33 @@
+Data Manipulation Language -> handle the records from the table
+			->insert, delete, update
+				=>1-m
+
+insert into Students(id, name,email, age, group) values (1234, 'nuj', 'exemplu', 20, 923)
+
+select * from [table]	=> se vad toate
+		->se poate si doar cateva coloane da trebe separate cu nu stiu nu eram asa atenta
+	where [condition]
+	DISTINCT
+	[column] from [table]
+select cv from Students s, Exams e where s.id=e.id
+select S.age, age1=S.age-18, 2*S.age AS age2 =>age2 nu exista defapt in tabel da o sa apara ca si rezultat
+	->AS operator
+
+select S.name LIKE 'A%' 	=> starts with A
+		'%A'	=>ends with A
+		'A%A'	=>starts and ends with A
+		'A_%'	=>starts with A and is followed by another character
+	-> like operator is used for matching strings
+
+select S.id from Students S where S.age>20 UNION select E.sid from Exam E where E.cid='Alg1'
+	->union operator 
+	->UNION ALL => shows duplicates
+
+	->INTERSECT operator
+	->EXCEPT operator
+
+[NOT] IN
+[NOT] EXIST
+ANY
+ALL
+	=>select from where .. NOT IN (selecct from where....)

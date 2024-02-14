@@ -1,0 +1,202 @@
+* Tables = 1, Pirates
+	 2, Ships
+	 3, WorksOn
+
+* Tests -1 row
+
+* TestTables - 3 rows (of tableID, testID)
+
+Begining of each test - empty all tests in order of WorksOn, P/S
+
+testID 1, tableID, position x, where x specifies the order of emptying
+the reverse (insert rows) is done in reverse order of position x
+
+sys.datetime before the view
+sys.datetime after the view
+compute difference to see how long the select or whatever took to execute
+
+(VIEWS - check lecture/seminar)
+Take some complex queries from lab 2 and save them as Views
+CREATE VIEW AS
+	// select ...
+* Create a couple of views, enter data abt them in Views table
+* TestViews
+
+
+	ex test (grade 8)
+C P  uspTest
+AS
+	//empty tables
+	Delete Pirates, Ships, WorksOn
+
+	// CHECK START AT TIME
+	I (10k, Pirates) //insert 10 000 entries in Pirates
+	// END AT for sequence of inserts in Pirates
+	// Start at for ship inserts
+	I (10k, Ships)
+	// end at
+	//
+	I (100k, WorksOn)
+	//	
+	//
+	S View1
+	//
+	//
+	S View2
+	//global end at
+
+//for each test run, 
+// 1 for each test run, global ...
+//
+
+TestRuns description: name of test concatenated with the id of test run
+insert desc into testRuns (id is auto put based on the nr of runs of a test) 
+we need that id for testRunTables
+then, we update the row in testRuns to include the startAt and endAt dates
+
+
+!!! WORK WITH LARGE TABLES! At least tens of thousands, to see differences
+Performance data stored automatically
+
+For grade 9
+proc that receives as param the name of a test (test names are unique)
+It extracts the definition of the test from the table 
+extract testID (1), then extract 
+static sql
+
+
+grade 10
+- create 1 single proc PARAM NAME OF TEST(param name of table, nr rows to insert)
+- using table name, it extracts the table schema from catalog sys.Object(with one 
+row per object
+-build dynamically: DELETE FROM ' ... '
+		    INSERTs to generate data of the appropriate type
+while
+Create sqlInsertStmt = 'INSERT '+@tableName+' VALUES(' generate data in a while +')'
+
+Use 20+RAND(0,1)*10 (if we want range [20,30]
+Use functions CHAR, ASCII - day, month, year, build a date/datetime to put as DoB
+somewhere in a table
+
+
+C PROC uspRunTest @TestName
+AS
+//extract testID, Name from table Tests
+//Prin testID treci in TestTables
+// de acolo in Tables, de unde pe baza numelui si cu sys.objects
+extragem table schema: Pirates PID INT, Pirates PName Varchar(..), .. DOB Date
+// De aici, cream dinamic query ul care face testul:
+while(..)
+// @var = generated value
+e.g: @SqlInsert = 'INSERT'+@tableName+'VALUES(' +@var + ')'
+
+
+drop procedure RunTest
+drop procedure StoreTestRunTablesPerformance 
+drop procedure EvaluateTestViews
+go
+
+CREATE PROCEDURE EvaluateTestViews
+    @TestID INT
+AS
+BEGIN
+    DECLARE @ViewID INT, @SqlEvaluate NVARCHAR(MAX)
+
+    -- Loop through TestViews for the specified test
+    DECLARE ViewCursor CURSOR FOR
+    SELECT ViewID
+    FROM TestViews
+    WHERE TestID = @TestID;
+
+    OPEN ViewCursor;
+    FETCH NEXT FROM ViewCursor INTO @ViewID;
+
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        -- Evaluate the view
+        SET @SqlEvaluate = 'SELECT * FROM Views WHERE ViewID = ' + CAST(@ViewID AS NVARCHAR);
+        EXEC sp_executesql @SqlEvaluate;
+
+        FETCH NEXT FROM ViewCursor INTO @ViewID;
+    END;
+
+    CLOSE ViewCursor;
+    DEALLOCATE ViewCursor;
+END;
+
+go
+CREATE PROCEDURE StoreTestRunTablesPerformance
+    @TestID INT
+AS
+BEGIN
+    DECLARE @TableID INT, @SqlPerformance NVARCHAR(MAX)
+
+    -- Loop through TestRunTables for the specified test
+    DECLARE TableCursor CURSOR FOR
+    SELECT TableID
+    FROM TestTables
+    WHERE TestID = @TestID
+    ORDER BY Position;
+
+    OPEN TableCursor;
+    FETCH NEXT FROM TableCursor INTO @TableID;
+
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        -- Store performance data for table
+        SET @SqlPerformance = 'INSERT INTO TestRunTables (TestID, TableID, InsertDuration) VALUES (' + CAST(@TestID AS NVARCHAR) + ', ' + CAST(@TableID AS NVARCHAR) + ', ' + 'PerformanceData)';
+        EXEC sp_executesql @SqlPerformance;
+
+        FETCH NEXT FROM TableCursor INTO @TableID;
+    END;
+
+    CLOSE TableCursor;
+    DEALLOCATE TableCursor;
+END;
+go
+
+CREATE PROCEDURE RunTest
+    @TestName NVARCHAR(50)
+AS
+BEGIN
+    DECLARE @TestID INT, @TableName NVARCHAR(50), @Position INT, @NoOfRows INT, @SqlInsert NVARCHAR(MAX)
+
+    -- Get TestID and TableName
+    SELECT @TestID = TestID, @TableName = t.Name
+    FROM Tests t
+    WHERE t.Name = @TestName;
+
+    -- Loop through TestTables for the specified test
+    DECLARE TableCursor CURSOR FOR
+    SELECT Position, NoOfRows
+    FROM TestTables
+    WHERE TestID = @TestID
+    ORDER BY Position;
+
+    OPEN TableCursor;
+    FETCH NEXT FROM TableCursor INTO @Position, @NoOfRows;
+
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        -- Delete data from the table
+        SET @SqlInsert = 'DELETE FROM ' + @TableName;
+        EXEC sp_executesql @SqlInsert;
+
+        -- Insert data into the table in reverse order
+        SET @SqlInsert = 'INSERT INTO ' + @TableName + ' VALUES(' + REPLICATE('DefaultData, ', @NoOfRows) + ')';
+        EXEC sp_executesql @SqlInsert;
+
+        FETCH NEXT FROM TableCursor INTO @Position, @NoOfRows;
+    END;
+
+    CLOSE TableCursor;
+    DEALLOCATE TableCursor;
+
+    -- Evaluate views for the test
+    EXEC EvaluateTestViews @TestID;
+
+    -- Store performance data in TestRunTables
+    EXEC StoreTestRunTablesPerformance @TestID;
+END;
+
+runTest 

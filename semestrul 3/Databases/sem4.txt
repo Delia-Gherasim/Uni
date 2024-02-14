@@ -1,0 +1,7 @@
+seminar sapt 7 -functions, views, system catalog, triggers, merge
+
+ia de la maria ce scrie pe tabla nvm ca n.o scris nmk
+fa poza la tabla
+
+
+select* from ufgetHotels(@no_stars DECIMAL(10,2)
