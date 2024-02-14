@@ -1,0 +1,46 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  ;d:1 2 3 4 7 6 5
+    13                                  segment data use32 class=data
+    14 00000000 31323334                    s1 db '1','2','3','4'
+    15 00000004 353637                      s2 db '5','6','7'
+    16                                      l1 equ $-s1
+    17                                      l2 equ $-s2
+    18 00000007 00<rept>                    d times l1+l2 db 0
+    19                                  ; Two byte strings S1 and S2 are given. Obtain the string D by concatenating the elements of S1 from the left hand side to the right hand side and the elements of S2 from the right hand side to the left hand side.
+    20                                  segment code use32 class=code
+    21                                      start:
+    22 00000000 B907000000                      mov ecx, l1
+    23 00000005 BE00000000                      mov esi, 0
+    24 0000000A E30F                            jecxz endfor
+    25                                          repeta1:
+    26 0000000C 8A86[00000000]                      mov al, [s1+esi]
+    27 00000012 8886[07000000]                      mov [d+esi], al
+    28 00000018 46                                  inc esi
+    29 00000019 E2F1                            loop repeta1
+    30                                          endfor
+    30          ******************       warning: label alone on a line without a colon might be in error [-w+orphan-labels]
+    31 0000001B B903000000                      mov ecx, l2
+    32 00000020 BE03000000                      mov esi, l2
+    33 00000025 BF00000000                      mov edi, 0
+    34 0000002A E310                            jecxz sfarsit
+    35                                          repeta2:
+    36 0000002C 8A86[04000000]                      mov al, [s2+esi]
+    37 00000032 8887[07000000]                      mov [d+edi], al
+    38 00000038 47                                  inc edi
+    39 00000039 4E                                  dec esi        
+    40 0000003A E2F0                            loop repeta2
+    41                                          sfarsit:
+    42                                          
+    43                                          ;exit(0)
+    44 0000003C 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    45 0000003E FF15[00000000]                  call    [exit]       ; call exit to terminate the program

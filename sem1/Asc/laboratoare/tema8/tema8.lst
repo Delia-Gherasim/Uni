@@ -1,0 +1,37 @@
+     1                                  bits 32 
+     2                                  global start        
+     3                                  
+     4                                  ; declare external functions needed by our program
+     5                                  extern exit          
+     6                                  import exit msvcrt.dll
+     7                                  extern printf 
+     8                                  import printf msvcrt.dll   
+     9                                  
+    10                                  ;Two natural numbers a and b (a, b: dword, defined in the data segment) are given. Calculate their sum and display the result in the following format: "<a> + <b> = <result>". Example: "1 + 2 = 3" The values will be 
+    11                                  
+    12                                  
+    13                                  segment data use32 class=data
+    14                                      
+    15 00000000 01000000                    a dd 1
+    16 00000004 02000000                    b dd 2
+    17 00000008 2564202B202564203D-         format db "%d + %d = %d", 0
+    17 00000011 20256400           
+    18                                  
+    19                                  ; our code starts here
+    20                                  segment code use32 class=code
+    21                                      start:
+    22 00000000 A1[00000000]                    mov eax, [a]
+    23 00000005 0305[04000000]                  add eax, [b]
+    24                                          
+    25 0000000B 50                              push eax 
+    26 0000000C FF35[04000000]                  push dword [b]
+    27 00000012 FF35[00000000]                  push dword [a]
+    28 00000018 68[08000000]                    push dword format
+    29                                          
+    30 0000001D FF15[00000000]                  call [printf]
+    31 00000023 83C410                          add esp, 4*4
+    32                                                  
+    33                                      
+    34                                          ; exit(0)
+    35 00000026 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    36 00000028 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

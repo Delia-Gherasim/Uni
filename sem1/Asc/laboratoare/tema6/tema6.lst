@@ -1,0 +1,89 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ;An array of doublewords, where each doubleword contains 2 values on a word (unpacked, so each nibble is preceded by a 0) is given. Write an asm program to create a new array of bytes which contain those values (pac
+    12                                  
+    13                                  segment data use32 class=data
+    14 00000000 0A09020704030C0B08-         a1 dd 0702090Ah, 0B0C0304h, 05060108h
+    14 00000009 010605             
+    15                                      l equ ($-a1)/4 ;lenght in doublewords
+    16 0000000C 0000<rept>                  a2 times l dw 0
+    17 00000012 0000<rept>                  a3 times l dw 0
+    18 00000018 0A                          zece db 10
+    19                                  ; our code starts here
+    20                                  segment code use32 class=code
+    21                                      start:
+    22 00000000 FC                              cld ; df=0 left to right
+    23 00000001 B903000000                      mov ecx, l
+    24 00000006 BF00000000                      mov edi, 0
+    25 0000000B BE[00000000]                    mov esi, a1
+    26                                          repeta1:
+    27 00000010 66AD                                lodsw   ;ax will have the low word of the current dword
+    28                                                      ;ax=090a
+    29 00000012 6689C3                              mov bx, ax
+    30 00000015 B400                                mov ah, 0
+    31 00000017 F635[18000000]                      div byte[zece]  ;obtains the last digit in ah
+    32 0000001D 88E2                                mov dl, ah  ;dl=a
+    33 0000001F 88F8                                mov al, bh  ;al=09
+    34 00000021 F63D[18000000]                      idiv byte[zece]  ;ah=9
+    35 00000027 B00A                                mov al, 10
+    36 00000029 F6EC                                imul ah ;ax=90
+    37 0000002B B600                                mov dh, 0
+    38 0000002D 6601D0                              add ax, dx  ;ax=9a
+    39 00000030 6689C1                              mov cx, ax
+    40                                              
+    41 00000033 66AD                                lodsw   ;ax =high word
+    42                                                      ;ax=0702
+    43                                                      ;ah=07 al=02
+    44 00000035 6689C3                              mov bx, ax
+    45 00000038 B400                                mov ah, 0
+    46 0000003A F635[18000000]                      div byte[zece]  ;obtains the last digit in ah
+    47 00000040 88E2                                mov dl, ah  ;dl=2
+    48 00000042 88F8                                mov al, bh  ;al=07
+    49 00000044 F63D[18000000]                      idiv byte[zece]  ;ah=7
+    50 0000004A B00A                                mov al, 10
+    51 0000004C F6EC                                imul ah ;ax=70
+    52 0000004E B600                                mov dh, 0
+    53 00000050 00D4                                add ah, dl  ;ax=72
+    54                                              
+    55 00000052 668987[0C000000]                    mov [a2+edi], ax
+    56 00000059 47                                  inc edi
+    57 0000005A 66898F[0C000000]                    mov [a2+edi], cx
+    58                                  
+    59 00000061 E2AD                            loop repeta1 
+    60                                          
+    61 00000063 BE00000000                      mov esi, 0
+    62 00000068 BF00000000                      mov edi, 0
+    63 0000006D FC                              cld
+    64 0000006E B903000000                      mov ecx, l
+    65 00000073 E337                            jecxz sfarsit
+    66                                          repeta2:
+    67 00000075 668B87[0C000000]                    mov ax, [a2+edi]
+    68 0000007C BE00000000                          mov esi, 0
+    69 00000081 89CA                                mov edx, ecx
+    70 00000083 B903000000                          mov ecx, l
+    71 00000088 E31D                                jecxz back
+    72                                              for:
+    73 0000008A 668B9E[0C000000]                        mov bx, [a2+esi]
+    74 00000091 6639D8                                  cmp ax, bx
+    75 00000094 7C00                                    jl switch
+    76                                                  switch:
+    77 00000096 66899F[0C000000]                            mov [a2+edi], bx
+    78 0000009D 668986[0C000000]                            mov [a2+esi], ax
+    79 000000A4 46                                      inc esi
+    80 000000A5 E2E3                                loop for
+    81                                              back:
+    82 000000A7 89D1                                mov ecx, edx
+    83 000000A9 47                                  inc edi
+    84 000000AA E2C9                            loop repeta2
+    85                                          
+    86                                          sfarsit:
+    87 000000AC 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    88 000000AE FF15[00000000]                  call    [exit]       ; call exit to terminate the program
