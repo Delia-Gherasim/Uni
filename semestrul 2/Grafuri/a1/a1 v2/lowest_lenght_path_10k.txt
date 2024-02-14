@@ -1,0 +1,14 @@
+The lowest lenght path is  5
+[1, 7317, 460, 6010, 386, 2881]
+
+The lowest lenght path is  6
+[385, 9276, 7209, 6109, 2977, 1103, 7899]
+
+The lowest lenght path is  8
+[5, 2550, 4896, 896, 262, 9952, 1804, 6525, 8]
+
+The lowest lenght path is  7
+[1, 7317, 4118, 2404, 8960, 4109, 770, 9999]
+
+The lowest lenght path is  8
+[9, 5594, 3560, 541, 3749, 7432, 3045, 1403, 4]
