@@ -1,0 +1,7 @@
+backtracking pt week 5 13
+dynamic prog week 6 2?
+o data normal si udynamic
+
+back
+prob o data recursiv si iterativ
+explain time complexity

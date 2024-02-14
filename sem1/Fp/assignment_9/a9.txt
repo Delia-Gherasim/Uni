@@ -1,0 +1,15 @@
+a9
+
+console based
+layered arch
+tests 
+specs
+	-all not ui modules
+
+player vs comp
+
+min requirements for the comp
+	-if it can win in one move it should
+	-if the player can win in one move it blocks the player
+	
+		

@@ -1,0 +1,29 @@
+a6
+
+prob 3
+
+console based menu
+manage list of elements
+
+
+user interface
+list modulo=10
+
+each function has a specific command
+
+trebe 3 fisiere
+start.py
+ui.py -- print/input
+functions.py
+
+10 random int nr -list
+
+list of lists -- get set create functions (?)
+
+userinputvalidation - functie care urla la tn daca nu ii valoarea buna
+
+specifications la orice ii in functions.py
+
+tests for all functions in function.py related to a and b (?)
+
+cv assert?? efectiv cplm

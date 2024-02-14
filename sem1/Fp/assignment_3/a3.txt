@@ -1,0 +1,12 @@
+a3
+1. compute the complexity of the 2 sorting alghoritms -gen pe foaie ig
+	best si worst case
+2. measure the 2 sorting alghoritms
+	time/timeit(?)
+
+3 comenzi noi in meniu:best case, worst case, average case
+
+Average case: 5 liste cu din ce in ce mai multe nr random(500, 1000, 2000, 4000, 8000) si masuram compl
+best/worst: listele ordonate in functie de alg ca sa fie cel mai bun/rau caz
+
+*scoatem aia cu printat pasii la sortari

@@ -1,0 +1,23 @@
+a8 - ex 4
+
+console based
+manage multiple entities
+
+functions:
+1. manage 2 entities - add, update, delete
+2. 3rd entity - links them 
+3. search
+4. statistics
+
+layered architecture
+	ui --> service --> repository
+tests for the first functionality -pyunit?
+specifications
+user input validation (ca a6)
+	custom exception classes?
+generated items at startup
+
+bonus:
+1. coverage module
+2. 
+3. 

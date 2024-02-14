@@ -1,0 +1,28 @@
+manage list of complex nr
+
+ 5 si 11
+1 read a new list
+show the list
+show the longest subset with some 
+4 exit
+
+pt 3 write spec adica comentariile alea fancy
+ui.py si program.py
+
+ui- tot print si imput
+program- orice altcv
+
+a+bi
+reprez ca lista [a,b]
+si ca dictionary??
+{"real":a, "img":b}
+
+da fara sa facem acelasi kkt de 2 ori
+
+4 functii o data pt var lista si o data pt dict (adica 8 functii cplm)
+create number
+get_real
+get_img
+display
+
+ok deci dubluri si comentam cate juma 
