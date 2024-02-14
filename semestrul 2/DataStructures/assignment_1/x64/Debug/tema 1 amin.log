@@ -1,0 +1,7 @@
+﻿  App.cpp
+  ExtendedTest.cpp
+  Matrix.cpp
+  ShortTest.cpp
+  Generating Code...
+C:\Facultation\sem2\datastr\lab\tema 1 amin\Matrix.cpp(90): warning C4715: 'Matrix::modify': not all control paths return a value
+  tema 1 amin.vcxproj -> C:\Facultation\sem2\datastr\lab\tema 1 amin\x64\Debug\tema 1 amin.exe

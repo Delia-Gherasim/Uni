@@ -1,0 +1,2 @@
+C:\Facultation\sem2\datastr\tema 1 amin\x64\Debug\tema 1 amin.exe
+C:\Facultation\sem2\datastr\lab\tema 1 amin\x64\Debug\tema 1 amin.exe
