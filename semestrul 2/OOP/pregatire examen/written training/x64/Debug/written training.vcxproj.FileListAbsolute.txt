@@ -1,0 +1,2 @@
+C:\Facultation\sem2\oop\written training\x64\Debug\written training.exe
+C:\Facultation\sem2\oop\pregateisan\written training\x64\Debug\written training.exe

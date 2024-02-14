@@ -1,0 +1,2 @@
+C:\Facultation\sem2\oop\pregateisan\c\x64\Debug\c.exe
+C:\Facultation\sem2\oop\pregateisan\nu\screenwritter nu\x64\Debug\c.exe

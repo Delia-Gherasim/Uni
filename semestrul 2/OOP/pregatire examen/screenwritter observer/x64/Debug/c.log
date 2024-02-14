@@ -1,0 +1,7 @@
+﻿  moc WriterWindow.h
+  Repository.cpp
+  Service.cpp
+  WriterWindow.cpp
+  main.cpp
+  moc_WriterWindow.cpp
+  c.vcxproj -> C:\Facultation\sem2\oop\pregateisan\nu\screenwritter nu\x64\Debug\c.exe

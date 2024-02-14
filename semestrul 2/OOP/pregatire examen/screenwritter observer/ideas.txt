@@ -1,0 +1,20 @@
+aaaaaa
+proposed
+Jane Smith
+1
+Romantic Comedy
+proposed
+John Doe
+1
+Thriller
+accepted
+Jane Smith
+2
+Sci-Fi
+proposed
+Alex Johnson
+3
+o pula-n cur
+proposed
+Jane Smith
+3
