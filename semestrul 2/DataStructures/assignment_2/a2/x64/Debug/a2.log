@@ -1,0 +1,7 @@
+﻿  ExtendedTest.cpp
+C:\Facultation\sem2\datastr\lab\tema2\a2\ExtendedTest.cpp(253,20): warning C4101: 'ex': unreferenced local variable
+  IteratedList.cpp
+  ListIterator.cpp
+  ShortTest.cpp
+  Generating Code...
+  a2.vcxproj -> C:\Facultation\sem2\datastr\lab\tema2\a2\x64\Debug\a2.exe
