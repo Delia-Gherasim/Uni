@@ -1,0 +1,15 @@
+drinks
+orange juice
+2
+drinks 
+water
+6
+dairy
+yoghurt
+4
+drinks
+abc
+1
+sweets
+chocolate
+3

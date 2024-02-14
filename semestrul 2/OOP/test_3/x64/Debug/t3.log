@@ -1,0 +1,7 @@
+﻿  moc t3.h
+  main.cpp
+  repository.cpp
+  service.cpp
+  t3.cpp
+  moc_t3.cpp
+  t3.vcxproj -> C:\Facultation\sem2\oop\lab\t3\x64\Debug\t3.exe
