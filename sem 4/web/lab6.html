@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table id="aTable">
+      <tr>
+        <th>Delete</th>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+        <th>Column 4</th>
+        <th>Column 5</th>
+        <th>Add</th>
+      </tr>
+      <tr>
+        <td><button class="delete-button">Delete this row</button></td>
+        <td contenteditable="true">data 1</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td><button class="add-button">Add new row below</button></td>
+      </tr>
+      <tr>
+        <td><button class="delete-button">Delete this row</button></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">data 2</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td><button class="add-button">Add new row below</button></td>
+      </tr>
+      <tr>
+        <td><button class="delete-button">Delete this row</button></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">data 3</td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td><button class="add-button">Add new row below</button></td>
+      </tr>
+      <tr>
+        <td><button class="delete-button">Delete this row</button></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">data 4</td>
+        <td contenteditable="true"></td>
+        <td><button class="add-button">Add new row below</button></td>
+      </tr>
+      <tr>
+        <td><button class="delete-button">Delete this row</button></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true">data 5</td>
+        <td><button class="add-button">Add new row below</button></td>
+      </tr>
+    </table>
+
+    <script>
+      $(document).ready(function () {
+        $("#aTable").on("click", ".delete-button", function () {
+          var row = $(this).closest("tr");
+          var rowIndex = row.index();
+          row.remove();
+          //   if (rowIndex > 0) {
+          //     row.remove();
+          //     var rowAbove = $("#aTable tr")
+          //       .eq(rowIndex - 1)
+          //       .clone();
+
+          //     rowAbove.find("input").val("");
+          //     rowAbove.find("td").not(":first").text("");
+
+          //     $("#aTable").append(rowAbove);
+          //   } else {
+          //     row.remove();
+          //   }
+        });
+
+        $("#aTable").on("click", ".add-button", function () {
+          var newRow = $(
+            "<tr><td><button class='delete-button'>Delete this row</button></td><td contenteditable='true'></td><td contenteditable='true'></td><td contenteditable='true'></td><td contenteditable='true'></td><td contenteditable='true'></td><td><button class='add-button'>Add new row below</button></td></tr>"
+          );
+          $(this).closest("tr").after(newRow);
+        });
+
+        $("#aTable").on("blur", "td[contenteditable='true']", function () {
+          var allFilled = true;
+          $(this)
+            .closest("tr")
+            .find("td[contenteditable='true']")
+            .each(function () {
+              if ($(this).text().trim() === "") {
+                allFilled = false;
+                return false;
+              }
+            });
+
+          if (allFilled) {
+            $(this)
+              .closest("tr")
+              .find("td[contenteditable='true']")
+              .removeAttr("contenteditable");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab5</title>
+</head>
+<body>
+    <label>This is the combo box</label>
+    <div id="editableComboBox">
+        <input type="text" id="comboBoxInput" style="display:none;">
+        <select id="comboBoxSelect" onchange="updateInput()">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="+">+</option>
+        </select>
+    </div>
+
+    <script>
+        function updateInput() {
+            let selectBox = document.getElementById("comboBoxSelect");
+            let inputBox = document.getElementById("comboBoxInput");
+            let selectedOption = selectBox.options[selectBox.selectedIndex];
+            
+            if (selectedOption.value === "+") {
+                inputBox.style.display = "block";
+                inputBox.value = "";
+                inputBox.focus();
+                inputBox.addEventListener("blur", handleInputBlur); 
+            } else {
+                inputBox.style.display = "none";
+            }
+        }
+
+        function handleInputBlur() {
+            let inputBox = document.getElementById("comboBoxInput");
+            let selectBox = document.getElementById("comboBoxSelect");
+            let inputValue = inputBox.value.trim();
+
+            if (inputValue !== "") {
+                let option = document.createElement("option");
+                option.text = inputValue;
+                option.value = inputValue;
+                selectBox.add(option);
+                inputBox.value = "";
+            }
+            inputBox.style.display = "none";
+            inputBox.removeEventListener("blur", handleInputBlur); 
+        }
+    </script>
+</body>
+</html>
