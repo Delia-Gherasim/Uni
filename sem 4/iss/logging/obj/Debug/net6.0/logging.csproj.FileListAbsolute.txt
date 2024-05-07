@@ -1,0 +1,15 @@
+C:\Facultation\sem4\iss\logging\bin\Debug\net6.0\logging.exe
+C:\Facultation\sem4\iss\logging\bin\Debug\net6.0\logging.deps.json
+C:\Facultation\sem4\iss\logging\bin\Debug\net6.0\logging.runtimeconfig.json
+C:\Facultation\sem4\iss\logging\bin\Debug\net6.0\logging.dll
+C:\Facultation\sem4\iss\logging\bin\Debug\net6.0\logging.pdb
+C:\Facultation\sem4\iss\logging\obj\Debug\net6.0\logging.csproj.AssemblyReference.cache
+C:\Facultation\sem4\iss\logging\obj\Debug\net6.0\logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultation\sem4\iss\logging\obj\Debug\net6.0\logging.AssemblyInfoInputs.cache
+C:\Facultation\sem4\iss\logging\obj\Debug\net6.0\logging.AssemblyInfo.cs
+C:\Facultation\sem4\iss\logging\obj\Debug\net6.0\logging.csproj.CoreCompileInputs.cache
+C:\Facultation\sem4\iss\logging\obj\Debug\net6.0\logging.dll
+C:\Facultation\sem4\iss\logging\obj\Debug\net6.0\refint\logging.dll
+C:\Facultation\sem4\iss\logging\obj\Debug\net6.0\logging.pdb
+C:\Facultation\sem4\iss\logging\obj\Debug\net6.0\logging.genruntimeconfig.cache
+C:\Facultation\sem4\iss\logging\obj\Debug\net6.0\ref\logging.dll
