@@ -1,0 +1,8 @@
+C:\Facultation\sem4\baze\lab1\bin\Debug\lab1.exe.config
+C:\Facultation\sem4\baze\lab1\bin\Debug\lab1.exe
+C:\Facultation\sem4\baze\lab1\bin\Debug\lab1.pdb
+C:\Facultation\sem4\baze\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+C:\Facultation\sem4\baze\lab1\obj\Debug\lab1.csproj.SuggestedBindingRedirects.cache
+C:\Facultation\sem4\baze\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\Facultation\sem4\baze\lab1\obj\Debug\lab1.exe
+C:\Facultation\sem4\baze\lab1\obj\Debug\lab1.pdb
