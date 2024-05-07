@@ -1,0 +1,118 @@
+.first_button {
+  background-color: lightcoral;
+  border: 10;
+  width: 100px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.first_button:hover {
+  animation: bubble 0.6s ease-out;
+}
+@keyframes bubble {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.text {
+  color: black;
+  font-family: Arial, sans-serif;
+}
+.second_button {
+  background-color: lightskyblue;
+  border: 10;
+  width: 100px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.second_button :hover {
+  animation-name: push2;
+  animation-duration: 0.5s;
+}
+@keyframes push2 {
+  0% {
+    background-color: lightskyblue;
+  }
+  50% {
+    box-shadow: 0 0 50px rgb(27, 32, 41);
+  }
+}
+.images1 {
+  border: 1px gray;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+}
+.images2 {
+  border: 1px gray;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+}
+.images3 {
+  border: 1px gray;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+}
+.images4 {
+  border: 1px gray;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+}
+.images1:hover {
+  display: block;
+  /* box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);*/
+  /* transform: scale(4);
+  transform: scaleY(-400px);
+  align-self: center;
+  /* background-image: url("lab2/download (1).jfif"); */
+}
+.images2:hover {
+  display: block;
+  /* box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  transform: scale(4);
+  transform: scaleY(-400px);
+  align-self: center; */
+}
+.images3:hover {
+  display: block;
+  /* box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  transform: scale(4);
+  transform: scaleY(-400px);
+  align-self: center;
+*/
+}
+.images4:hover {
+  display: block;
+  /* box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  transform: scale(4);
+  transform: scaleY(-400px);
+  align-self: center; */
+}
+.mainImage1 {
+  /* margin-left: 200px; */
+  display: none;
+}
+.mainImage2 {
+  /* margin-left: 200px; */
+  display: none;
+}
+.mainImage3 {
+  /* margin-left: 200px; */
+  display: none;
+}
+.mainImage4 {
+  /* margin-left: 200px; */
+  display: none;
+}
+.row {
+  align-items: baseline;
+  margin-left: 100px;
+}
