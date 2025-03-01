@@ -1,0 +1,6 @@
+Q = {q0, q1, q2}
+E = {a, b}
+Q0 = q0
+F = {q2}
+delta(q0, a) = q1
+delta(q1, b) = q2

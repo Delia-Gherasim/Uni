@@ -1,0 +1,31 @@
+Scanner Class: The Scanner class processes code from a program file and classifies tokens
+
+void loadTokens(const std::string& tokensPath) 
+	reads tokens from tokens.in and adds them to std::vector<std::string> keywords/ std::vector<std::string> operators/    std::vector<std::string> separators by type
+
+std::vector<std::string> tokenizeLine(const std::string& line) 
+	breaks down each line from the code into separate words
+
+void processToken(const std::string& token, int lineNum, int charPos)
+	This method identifies each token type:
+	constants are added to the constants table.
+	Keywords and operators are added to the PIF.
+	Identifiers are added to the identifiers table.
+	Unknown tokens trigger a syntax error message.
+
+Scanner(const std::string& programPath, const std::string& tokensPath) 
+	Takes program and tokens file paths, loads lines from the program, and loads tokens
+
+std::vector<std::string> readFileLines(const std::string& filePath)
+	Reads all lines from a file and returns them as a list.
+
+void scan() 
+	Processes each line and each token within it by calling tokenizeLine and processToken.
+
+void printResults() 
+	Outputs all tokens and classifications (identifiers, constants).
+
+void printSyntaxResult()
+	Displays whether syntax errors were found.
+
+main Function: Initializes the Scanner with program and token files, runs the scan function, and prints the results and any syntax error messages.

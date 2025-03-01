@@ -1,0 +1,63 @@
+1. classes
+
+parser: this class handles the parsing logic.
+
+parseroutput: this class manages the output of the parser.
+
+2. parser class
+
+constructor: initializes the parser.
+
+reads grammar from files based on the option provided.
+
+sets up stacks for working, input, and output.
+
+3. methods in parser
+
+closure: calculates the closure of a set of productions.
+
+iteratively adds productions reachable from the current state.
+
+goto: determines the next state for a given state and symbol.
+
+moves the "." (dot) in the production and computes the closure of the result.
+
+canonicalcollection: generates the set of all states (canonical collection).
+
+starts from the initial state and calculates new states until no more states can be added.
+
+generatetable: creates the parsing table.
+
+identifies shift, reduce, or accept actions based on the states.
+
+handles conflicts by raising an exception.
+
+print_table: prints the parsing table.
+
+each state and its corresponding actions are displayed.
+
+parse: parses an input string using the table.
+
+processes the string step by step, shifting or reducing based on table actions.
+
+detects syntax errors and outputs the result.
+
+4. parseroutput class
+
+ds: maps output numbers to their corresponding grammar productions.
+
+writeoutput: writes the parsed output to a file.
+
+5. usage
+
+create a parser object by providing an option (1 or 2).
+
+use the "parse" method to analyze an input string.
+
+use the parseroutput class to write the result to a file.
+
+6. notes
+
+ensure grammar files exist at the specified paths.
+
+resolve any parsing conflicts to prevent errors during execution.

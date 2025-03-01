@@ -1,0 +1,22 @@
+G = ({Program, Declaration, StatementList, Statement, ComplicatedStatement, SimpleStatement, AssignStatement, IoStatement, IfStatement, ForStatement, FunctionStatement, ArgumentsList, ResultValue, Condition, Expression, Term, Factor, Relation, Const, Type, Identifier}, 
+     {if, for, function, read, write, "(", ")", "[", "]", ":", ";", "=", "true", "false", "+", "-", "*", "/", ">", "<", "==", ">=", "<=", "<>", "number", "word", "character"},
+     P, Program)
+P:
+Program -> Declaration | StatementList
+Declaration -> Identifier ":" Type
+StatementList -> Statement | Statement ";" StatementList
+Statement -> SimpleStatement | ComplicatedStatement
+AssignStatement -> Identifier "=" Expression
+IoStatement -> "read" "(" Identifier ")" | "write" "(" Identifier ")"
+IfStatement -> "if" "" Condition "" "[" StatementList "]" ["else" "[" StatementList "]"]
+ForStatement -> "for" "(" Condition ";" Condition ";" Condition ")" "[" StatementList "]"
+FunctionStatement -> "function" Identifier "(" ArgumentsList ")" "[" StatementList "result" "->" ResultValue "]"
+ArgumentsList -> Identifier ":" Type | Identifier ":" Type "," ArgumentsList
+ResultValue -> "true" | "false" | Expression
+Condition -> Expression Relation Expression
+Expression -> Expression "+" Term | Expression "-" Term | Term
+Term -> Term "*" Factor | Term "/" Factor | Factor
+Factor -> Identifier | Const | "(" Expression ")"
+Relation -> ">" | "<" | "==" | ">=" | "<=" | "<>"
+Const -> "number" | "word" | "character"
+Type -> "number" | "word" | "character" | "struct"

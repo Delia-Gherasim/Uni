@@ -1,0 +1,13 @@
+fnct - nrMax : n1, n2, n3
+    daca n1 > n2 :
+        daca n1 > n3 :
+            raspuns n1
+        nuECazu :
+            raspuns n3
+    nuECazu :
+        daca n2 > n3 :
+            raspuns n2
+        nuECazu :
+            raspuns n3
+
+sight(nrMax(1,2,3))

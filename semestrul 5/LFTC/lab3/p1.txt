@@ -1,0 +1,11 @@
+fnct - nrMax : x, y, z 
+    daca x > y :
+        daca x > z :
+            raspuns x
+        nuECazu :
+            raspuns z
+    nuECazu :
+        daca y > z :
+            raspuns y
+        nuECazu :
+            raspuns z

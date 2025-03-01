@@ -1,0 +1,7 @@
+G = ({S,A,B,C,D}, {a,b,c,d}, P, S )
+P:
+S -> aA | aC
+A -> AB
+B -> b
+C -> aC | bCb
+D -> bB | d

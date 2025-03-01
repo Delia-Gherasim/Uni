@@ -1,0 +1,5 @@
+fnct nrMinim : a, b
+    daca a < 0b :
+        raspuns 01 ;
+    nuECazu :
+        raspuns b

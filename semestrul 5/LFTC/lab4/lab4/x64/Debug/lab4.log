@@ -1,0 +1,8 @@
+﻿  lab4.cpp
+C:\Facultation\sem5\lftc\lab\lab4\lab4.cpp(53,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Facultation\sem5\lftc\lab\lab4\lab4.cpp(54,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Facultation\sem5\lftc\lab\lab4\lab4.cpp(65,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Facultation\sem5\lftc\lab\lab4\lab4.cpp(66,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Facultation\sem5\lftc\lab\lab4\lab4.cpp(67,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Facultation\sem5\lftc\lab\lab4\lab4.cpp(68,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  lab4.vcxproj -> C:\Facultation\sem5\lftc\lab\lab4\x64\Debug\lab4.exe

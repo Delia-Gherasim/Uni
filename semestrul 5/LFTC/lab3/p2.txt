@@ -1,0 +1,10 @@
+fnct - cmmdc : a, b
+    panaCand a = b:
+        daca a > b:
+            a=a-b
+        nuECazu:
+            b=b-a
+
+    raspuns a
+
+sight(cmmdc(10, 20))
