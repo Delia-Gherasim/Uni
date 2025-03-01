@@ -7,12 +7,12 @@
   </head>
   <body>
     <div class="header">
-      <h2>Welcome to the cool news page</h2>
+      <h2>It's gonna be <b>LEGEN -</b> this is the news page homework <b>- DARY</b></h2>
       <div class="navBar">
         <style>
           .navBar {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
           }
           .header {
@@ -22,10 +22,9 @@
             text-align: center;
           }
         </style>
-        <a href="mainPage.php">MAIN PAGE</a>
         <a href="loginPage.php"><b>LOGIN</b></a>
         <a href="seeAllNews.php">SEE ALL</a>
-        <a href="updateNews.php">UPDATE</a>
+        <!-- <a href="updateNews.php">UPDATE</a> -->
         <a href="addNews.php">ADD</a>
       </div>
     </div>
@@ -40,7 +39,33 @@
           <h4>Password:</h4>
           <input type="text" id="password" /><br /><br />
         </div>
+
+        <input type="button" value="Submit" onclick="submitUpdate()" />
+        <input type="button" value="LogOut" onclick="logout()" />
       </div>
+      <script>
+       function submitUpdate() {
+        const user = document.getElementById('Username').value; 
+        const password = document.getElementById('password').value;
+
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', 'loginLogic.php', true); 
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+        const data = `user=${encodeURIComponent(user)}&password=${encodeURIComponent(password)}`;
+
+        xhr.send(data);
+      }
+      function logout() {
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', 'logOutLogic.php', true); 
+      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+      xhr.send(); 
+    }
+
+
+    </script>
       <style>
         .inputForm {
           border-color: black;
