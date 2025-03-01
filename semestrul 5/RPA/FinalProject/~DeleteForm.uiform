@@ -1,0 +1,25 @@
+﻿{
+  "Metadata": {
+    "Id": "b0a6cfb0-51ea-4fab-9a12-744a764b7de7",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "DeleteForm",
+    "Theme": "Flatly",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}

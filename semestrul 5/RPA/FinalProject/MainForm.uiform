@@ -1,0 +1,37 @@
+﻿{
+  "Metadata": {
+    "Id": "a6f8e838-72ff-4b92-9907-4956db92e4bd",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "MainForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Register new employee",
+        "action": "event",
+        "showValidations": false,
+        "tableView": false,
+        "key": "registerNewEmployee",
+        "type": "button",
+        "input": true,
+        "event": "RegisternewemployeeTrigger"
+      },
+      {
+        "label": "Delete employee",
+        "action": "event",
+        "showValidations": false,
+        "tableView": false,
+        "key": "deleteEmployee",
+        "type": "button",
+        "input": true,
+        "event": "DeleteTrigger"
+      }
+    ]
+  }
+}

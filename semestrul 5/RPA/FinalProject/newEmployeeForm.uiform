@@ -1,0 +1,180 @@
+﻿{
+  "Metadata": {
+    "Id": "5e4c41db-b7c5-4b26-bf27-ccce98f4594e",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "newEmployeeForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Name",
+        "tableView": true,
+        "validateOn": "blur",
+        "validate": {
+          "required": true,
+          "customMessage": "Oh No! The name is not valid",
+          "minLength": 2,
+          "maxLength": 50
+        },
+        "key": "name",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Adress",
+        "tableView": true,
+        "validateOn": "blur",
+        "validate": {
+          "required": true
+        },
+        "key": "address",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Gender",
+        "widget": "choicesjs",
+        "tableView": true,
+        "data": {
+          "values": [
+            {
+              "label": "Prefer Not To Say",
+              "value": "None"
+            },
+            {
+              "label": "Female",
+              "value": "female"
+            },
+            {
+              "label": "Male",
+              "value": "male"
+            }
+          ]
+        },
+        "key": "gender",
+        "type": "select",
+        "input": true,
+        "defaultValue": "None"
+      },
+      {
+        "label": "Date Of Birth",
+        "format": "yyyy-MM-dd ",
+        "tableView": false,
+        "datePicker": {
+          "disableWeekends": false,
+          "disableWeekdays": false
+        },
+        "enableTime": false,
+        "validateOn": "blur",
+        "validate": {
+          "required": true
+        },
+        "enableMinDateInput": false,
+        "enableMaxDateInput": true,
+        "key": "dateOfBirth",
+        "type": "datetime",
+        "input": true,
+        "widget": {
+          "type": "calendar",
+          "displayInTimezone": "viewer",
+          "locale": "en",
+          "useLocaleSettings": false,
+          "allowInput": true,
+          "mode": "single",
+          "enableTime": false,
+          "noCalendar": false,
+          "format": "yyyy-MM-dd ",
+          "hourIncrement": 1,
+          "minuteIncrement": 1,
+          "time_24hr": false,
+          "minDate": null,
+          "disableWeekends": false,
+          "disableWeekdays": false,
+          "maxDate": null
+        }
+      },
+      {
+        "label": "Phone Number",
+        "prefix": "07",
+        "inputMask": "",
+        "tableView": true,
+        "validateOn": "blur",
+        "validate": {
+          "required": true,
+          "customMessage": "Oh No! Invalid Phone Number"
+        },
+        "key": "phoneNumber",
+        "type": "phoneNumber",
+        "input": true
+      },
+      {
+        "label": "Email",
+        "tableView": true,
+        "validateOn": "blur",
+        "validate": {
+          "required": true,
+          "pattern": "^[^@]+@[^@]+\\.(com)$",
+          "customMessage": "Oh No! The email is not valid"
+        },
+        "key": "email",
+        "type": "email",
+        "input": true
+      },
+      {
+        "label": "Salary",
+        "tableView": false,
+        "defaultValue": 0,
+        "delimiter": false,
+        "requireDecimal": false,
+        "truncateMultipleSpaces": false,
+        "validateOn": "blur",
+        "validate": {
+          "required": true,
+          "min": 0
+        },
+        "key": "salary1",
+        "type": "number",
+        "input": true
+      },
+      {
+        "label": "Card Number",
+        "tableView": false,
+        "delimiter": false,
+        "requireDecimal": false,
+        "truncateMultipleSpaces": false,
+        "validateOn": "blur",
+        "validate": {
+          "customMessage": "Oh No! The Card Number is not valid",
+          "min": 10
+        },
+        "key": "cardNumber",
+        "type": "number",
+        "input": true
+      },
+      {
+        "label": "Job Title",
+        "tableView": true,
+        "key": "jobTitle",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Submit and register contract",
+        "action": "event",
+        "showValidations": false,
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "event": "SubmitTrigger",
+        "input": true
+      }
+    ]
+  }
+}
