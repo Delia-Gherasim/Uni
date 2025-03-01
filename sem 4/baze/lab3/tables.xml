@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigFile>
+	<Data Connection="Data Source=DESKTOP-G5O4MNS\SQLEXPRESS;Initial Catalog=Concerts;Integrated Security=true;"
+		  Table1="Bands"
+		  Table2="Songs"
+		  Query1="SELECT * FROM Bands"
+		  Query2="SELECT * FROM Songs"
+		  Column1="BandId"
+		  Column2="BandId"
+		  Relation="SongsBands"/>
+	<Data Connection="Data Source=DESKTOP-G5O4MNS\SQLEXPRESS;Initial Catalog=Concerts;Integrated Security=true;"
+			  Table1="Bands"
+			  Table2="Concert"
+			  Query1="SELECT * FROM Bands"
+			  Query2="SELECT * FROM Concert"
+			  Column1="bandId"
+			  Column2="bandId"
+			  Relation="ConcertBands" />
+	<Data Connection="Data Source=DESKTOP-G5O4MNS\SQLEXPRESS;Initial Catalog=Concerts;Integrated Security=true;"
+		 Table1="Concert"
+		 Table2="Event"
+		 Query1="SELECT * FROM Concert"
+		 Query2="SELECT * FROM Event"
+		 Column1="concertId"
+		 Column2="concertId"
+		 Relation="EventConcert" />
+
+
+</ConfigFile>

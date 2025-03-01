@@ -1,0 +1,10 @@
+USE practic;
+GO
+
+SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+GO
+BEGIN TRANSACTION;
+UPDATE Cities SET name = 'aaaa' WHERE cityId = 1;
+WAITFOR DELAY '00:00:10';  
+UPDATE FinancialProducts SET price = 100 WHERE productId = 1;
+COMMIT;

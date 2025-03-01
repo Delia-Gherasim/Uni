@@ -1,0 +1,10 @@
+C:\Facultation\sem4\baze\practic\bin\Debug\practic.exe.config
+C:\Facultation\sem4\baze\practic\bin\Debug\practic.exe
+C:\Facultation\sem4\baze\practic\bin\Debug\practic.pdb
+C:\Facultation\sem4\baze\practic\obj\Debug\practic.csproj.AssemblyReference.cache
+C:\Facultation\sem4\baze\practic\obj\Debug\practic.Form1.resources
+C:\Facultation\sem4\baze\practic\obj\Debug\practic.Properties.Resources.resources
+C:\Facultation\sem4\baze\practic\obj\Debug\practic.csproj.GenerateResource.cache
+C:\Facultation\sem4\baze\practic\obj\Debug\practic.csproj.CoreCompileInputs.cache
+C:\Facultation\sem4\baze\practic\obj\Debug\practic.exe
+C:\Facultation\sem4\baze\practic\obj\Debug\practic.pdb
