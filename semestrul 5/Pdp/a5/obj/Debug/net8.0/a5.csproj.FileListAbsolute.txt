@@ -1,0 +1,14 @@
+C:\Facultation\sem5\pdp\a5\bin\Debug\net8.0\a5.exe
+C:\Facultation\sem5\pdp\a5\bin\Debug\net8.0\a5.deps.json
+C:\Facultation\sem5\pdp\a5\bin\Debug\net8.0\a5.runtimeconfig.json
+C:\Facultation\sem5\pdp\a5\bin\Debug\net8.0\a5.dll
+C:\Facultation\sem5\pdp\a5\bin\Debug\net8.0\a5.pdb
+C:\Facultation\sem5\pdp\a5\obj\Debug\net8.0\a5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultation\sem5\pdp\a5\obj\Debug\net8.0\a5.AssemblyInfoInputs.cache
+C:\Facultation\sem5\pdp\a5\obj\Debug\net8.0\a5.AssemblyInfo.cs
+C:\Facultation\sem5\pdp\a5\obj\Debug\net8.0\a5.csproj.CoreCompileInputs.cache
+C:\Facultation\sem5\pdp\a5\obj\Debug\net8.0\a5.dll
+C:\Facultation\sem5\pdp\a5\obj\Debug\net8.0\refint\a5.dll
+C:\Facultation\sem5\pdp\a5\obj\Debug\net8.0\a5.pdb
+C:\Facultation\sem5\pdp\a5\obj\Debug\net8.0\a5.genruntimeconfig.cache
+C:\Facultation\sem5\pdp\a5\obj\Debug\net8.0\ref\a5.dll

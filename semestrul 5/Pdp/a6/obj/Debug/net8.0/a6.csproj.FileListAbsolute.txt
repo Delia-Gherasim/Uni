@@ -1,0 +1,14 @@
+C:\Facultation\sem5\pdp\a6\bin\Debug\net8.0\a6.exe
+C:\Facultation\sem5\pdp\a6\bin\Debug\net8.0\a6.deps.json
+C:\Facultation\sem5\pdp\a6\bin\Debug\net8.0\a6.runtimeconfig.json
+C:\Facultation\sem5\pdp\a6\bin\Debug\net8.0\a6.dll
+C:\Facultation\sem5\pdp\a6\bin\Debug\net8.0\a6.pdb
+C:\Facultation\sem5\pdp\a6\obj\Debug\net8.0\a6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultation\sem5\pdp\a6\obj\Debug\net8.0\a6.AssemblyInfoInputs.cache
+C:\Facultation\sem5\pdp\a6\obj\Debug\net8.0\a6.AssemblyInfo.cs
+C:\Facultation\sem5\pdp\a6\obj\Debug\net8.0\a6.csproj.CoreCompileInputs.cache
+C:\Facultation\sem5\pdp\a6\obj\Debug\net8.0\a6.dll
+C:\Facultation\sem5\pdp\a6\obj\Debug\net8.0\refint\a6.dll
+C:\Facultation\sem5\pdp\a6\obj\Debug\net8.0\a6.pdb
+C:\Facultation\sem5\pdp\a6\obj\Debug\net8.0\a6.genruntimeconfig.cache
+C:\Facultation\sem5\pdp\a6\obj\Debug\net8.0\ref\a6.dll

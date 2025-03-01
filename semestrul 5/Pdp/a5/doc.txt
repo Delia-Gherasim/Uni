@@ -1,0 +1,17 @@
+
+Running on 8 threads
+10:
+	Regular: 0ms
+	Regular with threads: 121ms
+	Karatsuba: 3ms
+	Karatsuba with Threads: 876ms
+100:
+	Regular: 0ms
+	Regular with threads: 124ms
+	Karatsuba: 3ms
+	Karatsuba with Threads: 68279ms
+1000:
+	Regular: 24ms
+	Regular with threads: 201ms
+	Karatsuba: 30ms
+	Karatsuba with Threads: infinit 
