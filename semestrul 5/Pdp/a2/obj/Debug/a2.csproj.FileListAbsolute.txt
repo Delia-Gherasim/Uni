@@ -1,0 +1,7 @@
+C:\Facultation\sem5\pdp\a2\bin\Debug\a2.exe.config
+C:\Facultation\sem5\pdp\a2\bin\Debug\a2.exe
+C:\Facultation\sem5\pdp\a2\bin\Debug\a2.pdb
+C:\Facultation\sem5\pdp\a2\obj\Debug\a2.csproj.AssemblyReference.cache
+C:\Facultation\sem5\pdp\a2\obj\Debug\a2.csproj.CoreCompileInputs.cache
+C:\Facultation\sem5\pdp\a2\obj\Debug\a2.exe
+C:\Facultation\sem5\pdp\a2\obj\Debug\a2.pdb

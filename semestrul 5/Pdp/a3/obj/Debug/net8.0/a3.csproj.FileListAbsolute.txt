@@ -1,0 +1,14 @@
+C:\Facultation\sem5\pdp\a3\bin\Debug\net8.0\a3.exe
+C:\Facultation\sem5\pdp\a3\bin\Debug\net8.0\a3.deps.json
+C:\Facultation\sem5\pdp\a3\bin\Debug\net8.0\a3.runtimeconfig.json
+C:\Facultation\sem5\pdp\a3\bin\Debug\net8.0\a3.dll
+C:\Facultation\sem5\pdp\a3\bin\Debug\net8.0\a3.pdb
+C:\Facultation\sem5\pdp\a3\obj\Debug\net8.0\a3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facultation\sem5\pdp\a3\obj\Debug\net8.0\a3.AssemblyInfoInputs.cache
+C:\Facultation\sem5\pdp\a3\obj\Debug\net8.0\a3.AssemblyInfo.cs
+C:\Facultation\sem5\pdp\a3\obj\Debug\net8.0\a3.csproj.CoreCompileInputs.cache
+C:\Facultation\sem5\pdp\a3\obj\Debug\net8.0\a3.dll
+C:\Facultation\sem5\pdp\a3\obj\Debug\net8.0\refint\a3.dll
+C:\Facultation\sem5\pdp\a3\obj\Debug\net8.0\a3.pdb
+C:\Facultation\sem5\pdp\a3\obj\Debug\net8.0\a3.genruntimeconfig.cache
+C:\Facultation\sem5\pdp\a3\obj\Debug\net8.0\ref\a3.dll

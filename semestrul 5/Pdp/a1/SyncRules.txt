@@ -1,0 +1,39 @@
+Multiple threads modify shared data: primaryValues and secondaryValues lists
+
+Primary Values:
+locked by primaryLock before modifying the list of primary values
+
+Secondary Values:
+locked by secondaryLock before updating the list of secondary values
+
+Consistency Check:
+uses both primaryLock and secondaryLock so we make sure that during the consistency check, the values are not modified while being read
+
+
+Hardware:
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19045 N/A Build 19045
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          40723210410
+Registered Organization:   N/A
+Product ID:                00330-54117-93926-AAOEM
+Original Install Date:     9/23/2022, 11:28:44 AM
+System Boot Time:          10/18/2024, 8:22:08 PM
+System Manufacturer:       ASUSTeK COMPUTER INC.
+System Model:              ASUS EXPERTBOOK B3302FEA_B5302FEA
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 140 Stepping 1 GenuineIntel ~2803 Mhz
+BIOS Version:              American Megatrends International, LLC. B3302FEA.309, 6/15/2022
+
+
+Tests:
+500 threads, 500 iterations 26 sec Passed
+600 threads, 600 iterations 37 sec Passed
+700 threads, 700 iterations 42 sec Passed
+800 threads, 800 iterations 58 sec Passed
+900 threads, 900 iterations 1.06 Passed
+1000 threads, 1000 iterations 1.20 Passed
+2000 threads, 2000 iterations 6.10 Passed
