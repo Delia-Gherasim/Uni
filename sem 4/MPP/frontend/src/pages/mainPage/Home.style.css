@@ -1,0 +1,14 @@
+.section-content {
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15px;
+}
+.container {
+    transition: margin-left 0.3s ease;
+    margin-left: 0;
+}
+
+.sidebar-open .container {
+    margin-left: 200px;
+}

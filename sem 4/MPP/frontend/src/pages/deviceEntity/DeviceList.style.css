@@ -1,0 +1,68 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #212922;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    text-align: left;
+    padding: 8px;
+    color: #e6e6e6;
+}
+tr:nth-child(even) {
+    background-color: #d6d6d6;
+    border-bottom: 1px solid #212922;
+}
+tr:nth-child(odd) {
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #212922;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttons [value='View'] {
+    background-color: #daa520;
+    color: black;
+    border-radius: 5px;
+    width: 80px;
+    flex: 3;
+}
+.buttons [value='Edit'] {
+    background-color: #daa520;
+    color: black;
+    border-radius: 5px;
+    width: 80px;
+    flex: 3;
+    margin-top: 10px;
+}
+.buttons [value='Delete'] {
+    background-color: #daa520;
+    color: black;
+    border-radius: 5px;
+    width: 80px;
+    flex: 2;
+    margin-top: 10px;
+}
+
+.buttons [value='Delete'] :hover {
+    cursor: pointer;
+}
+.buttons [value='Edit'] :hover {
+    cursor: pointer;
+}
+.buttons [value='View'] :hover {
+    cursor: pointer;
+}
